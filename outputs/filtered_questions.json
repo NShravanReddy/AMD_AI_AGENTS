@@ -1,0 +1,218 @@
+[
+    {
+        "topic": "Logical Reasoning",
+        "question": "On an island of knights and knaves, three individuals make the following statements: A says, 'B is a knight and C is a knave.' B says, 'A is a knave or C is a knight.' C says, 'A is a knight if and only if B is a knave.' If exactly one of them is a knight, who is the knight?",
+        "choices": [
+            "A) A) A",
+            "B) B) B",
+            "C) C) C",
+            "D) D) None"
+        ],
+        "answer": "B",
+        "explanation": "Assume A is a knight: then B is a knight and C is a knave. But B's statement 'A is a knave or C is a knight' would be false (since A is a knight and C is a knave), contradicting B being a knight. Assume C is a knight: then A is a knight iff B is a knave. If A is a knight, B is a knave, but A's statement would be true, making B a knave. B's statement 'A is a knave or C is a knight' would be true (since C is a knight), contradicting B being a knave. Only consistent case: B is a knight, A and C are knaves. B's statement is true, and A and C's statements are false."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the brother of B, who is the daughter of C. D is the son of E, who is the daughter of F. G is the son of H, who is the daughter of I. J is the son of K, who is the daughter of L. M is the son of N, who is the daughter of O. If A is the cousin of D, and D is the cousin of G, and G is the cousin of J, and J is the cousin of M, how is A related to M?",
+        "choices": [
+            "A) A) Uncle",
+            "B) B) Cousin",
+            "C) C) Nephew",
+            "D) D) Brother"
+        ],
+        "answer": "A",
+        "explanation": "All individuals (A, D, G, J, M) are in separate family lines, each with a common ancestor. Since A is the cousin of D, and D is the cousin of G, and so on, A and M share the same grandparent. Thus, A is the uncle of M."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the father of B, who is the daughter of C. D is the brother of C, and E is the daughter of D. F is the son of E. G is the mother of F. H is the brother of G. How is H related to A?",
+        "choices": [
+            "A) Father",
+            "B) Son",
+            "C) Brother",
+            "D) Uncle"
+        ],
+        "answer": "C",
+        "explanation": "H is the brother of G, who is the mother of F. Since A is the father of B, and B is the daughter of C, A is the father of C's child. G is the mother of F, making A the grandfather of F. H, being G's brother, is the uncle of F, and thus the uncle of A's grandchild. Therefore, H is A's brother."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Nine people sit around a circular table. A is seated between B and C. D is two seats to the right of E, who is adjacent to F. G is directly opposite H, and I is seated between G and H. If J is seated three seats to the left of A, who is seated directly opposite A?",
+        "choices": [
+            "A) B",
+            "B) F",
+            "C) I",
+            "D) J"
+        ],
+        "answer": "B",
+        "explanation": "A is between B and C. J is three left of A, so J is opposite A. G is opposite H, and I is between G and H. F is adjacent to E, who is two right of D. Only F is directly opposite A based on relative positions."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit around a circular table. A is between B and F. C is two seats to the left of D. E is directly opposite A. B is not adjacent to D. Who is sitting next to E?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) D",
+            "D) D) F"
+        ],
+        "answer": "D",
+        "explanation": "E is opposite A, so E's neighbors are B and F. A is between B and F, confirming F is adjacent to E. Other clues don't conflict with this arrangement."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit around a circular table. A is two seats to the left of B, who is opposite C. D is adjacent to E and faces the center. F is not adjacent to A. If B faces outward, who is sitting opposite A?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) D",
+            "D) D) E"
+        ],
+        "answer": "D",
+        "explanation": "B is opposite C, so A is opposite E. D is adjacent to E and faces center, so E cannot be opposite A. A is two left of B, so A is opposite E. D is adjacent to E, so E cannot be opposite A. Thus, E is opposite A."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit around a circular table. A is two seats to the left of B, who is directly opposite C. D is adjacent to E, who is two seats to the right of F. F is not adjacent to A. Who is sitting between A and B?",
+        "choices": [
+            "A) A) C",
+            "B) B) D",
+            "C) C) E",
+            "D) D) F"
+        ],
+        "answer": "C",
+        "explanation": "B is opposite C, so C is not between A and B. D is adjacent to E, not A or B. F is not adjacent to A, so F cannot be between A and B. E is two seats to the right of F, placing E between A and B."
+    },
+    {
+        "topic": "Logical Reasoning",
+        "question": "On the island of knights and knaves, three individuals\u2014Alpha, Beta, and Gamma\u2014make the following statements: Alpha says, 'Beta is a knave and Gamma is a knight.' Beta says, 'Alpha is a knight and Gamma is a knave.' Gamma says, 'Alpha is a knave or Beta is a knight.' If exactly one of them is a knight, who is the knight?",
+        "choices": [
+            "A) Alpha",
+            "B) Beta",
+            "C) Gamma",
+            "D) None of them"
+        ],
+        "answer": "D",
+        "explanation": "Assume Alpha is a knight: then Beta is a knave and Gamma is a knight. But Beta's statement would be false, making Beta a knave, which fits. However, Gamma's statement would be 'Alpha is a knave or Beta is a knight'\u2014false since Alpha is a knight and Beta is a knave. Contradiction. Try Beta as knight: then Alpha is a knight and Gamma is a knave. But Alpha's statement would be false, contradiction. Try Gamma as knight: then 'Alpha is a knave or Beta is a knight' is true. If Alpha is a knave, then Beta's statement is false, making Beta a knave. But then Gamma's statement is true, and only Gamma is a knight. However, this contradicts the 'exactly one' condition. Thus, no one can be a knight."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the only son of B, who is the daughter of C. D is the brother of C, and E is the daughter of D. F is the son of E. G is the daughter of F. H is the son of G. How is H related to A?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Uncle",
+            "D) D) Brother"
+        ],
+        "answer": "A",
+        "explanation": "A is the son of B, who is the daughter of C. D is the brother of C, so D is A's uncle. E is D's daughter, F is E's son, G is F's daughter, and H is G's son. H is the grandson of D, making H the cousin of A."
+    },
+    {
+        "topic": "Logical Reasoning",
+        "question": "On an island of knights and knaves, three inhabitants make the following statements: A says, 'B is a knave and C is a knight.' B says, 'A is a knight and C is a knave.' C says, 'A is a knave or B is a knight.' If exactly one of them is a knight, who is the knight?",
+        "choices": [
+            "A) A) A",
+            "B) B) B",
+            "C) C) C",
+            "D) D) None"
+        ],
+        "answer": "B",
+        "explanation": "Assume A is a knight: then B is a knave and C is a knight. But B's statement would be false, making B a knave, which fits. However, C says 'A is a knave or B is a knight.' If C is a knight, this must be true. But A is a knight and B is a knave, so 'A is a knave' is false and 'B is a knight' is false. Contradiction. Try B as knight: then A is a knight and C is a knave. A's statement would be true, but B is a knight, so A must be a knight, making B's statement true. C's statement would be false, making C a knave. This fits. Thus, B is the knight."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Ramesh, who is the brother of Ramesh's only sister, Radha. Radha is the mother of Ravi's only cousin, Raviya. Raviya is married to Ravi's paternal uncle, Ravi's father's brother. How is Raviya related to Ravi?",
+        "choices": [
+            "A) A) Aunt",
+            "B) B) Cousin",
+            "C) C) Sister-in-law",
+            "D) D) Niece"
+        ],
+        "answer": "C",
+        "explanation": "Raviya is the daughter of Radha, who is Ravi's maternal aunt. Raviya is married to Ravi's paternal uncle, making her Ravi's sister-in-law."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Eight people A, B, C, D, E, F, G, H sit around a circular table. Four face the center, and four face outward. A is third to the left of B, who faces the opposite direction of D. C (a doctor) sits adjacent to both E and F. G faces the center and is two seats to the left of H, who is not adjacent to B. If E faces outward, who is the engineer?",
+        "choices": [
+            "A) A) G",
+            "B) B) H",
+            "C) C) F",
+            "D) D) D"
+        ],
+        "answer": "B",
+        "explanation": "H's position and facing direction (outward) are derived from clues. Since C is a doctor and professions aren't repeated, H must be the engineer."
+    },
+    {
+        "topic": "Logical Reasoning",
+        "question": "On the island of knights and knaves, three inhabitants\u2014Alaric, Bella, and Cody\u2014make the following statements: Alaric says, 'Bella is a knight and Cody is a knave.' Bella says, 'Alaric is a knave or Cody is a knight.' Cody says, 'Alaric is a knight if and only if Bella is a knave.' How many of them are knights?",
+        "choices": [
+            "A) 1",
+            "B) 2",
+            "C) 3",
+            "D) 0"
+        ],
+        "answer": "A",
+        "explanation": "Assume Alaric is a knight. Then Bella is a knight and Cody is a knave. Bella's statement 'Alaric is a knave or Cody is a knight' would be false (since Alaric is a knight and Cody is a knave), contradicting Bella being a knight. Thus, Alaric must be a knave. If Alaric is a knave, his statement is false, so either Bella is a knave or Cody is a knight. If Bella is a knight, her statement 'Alaric is a knave or Cody is a knight' is true, which fits. Cody's statement 'Alaric is a knight iff Bella is a knave' is false (Alaric is a knave, Bella is a knight), so Cody is a knave. Thus, only Bella is a knight."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit around a circular table. A is directly opposite B. C is two seats to the left of D. E is adjacent to A and F. F is not adjacent to D. Who is sitting between C and D?",
+        "choices": [
+            "A) A) E",
+            "B) B) F",
+            "C) C) A",
+            "D) D) B"
+        ],
+        "answer": "B",
+        "explanation": "C is two seats left of D. Since the table is circular, D is two seats right of C. The person between C and D must be F, as E is adjacent to A and F, and F is not adjacent to D. This fits all constraints."
+    },
+    {
+        "topic": "Logical Reasoning",
+        "question": "On an island of knights and knaves, three individuals\u2014Milo, Nora, and Owen\u2014make the following statements: Milo says, 'Nora is a knave and Owen is a knight.' Nora says, 'Milo is a knight or Owen is a knave.' Owen says, 'If Milo is a knave, then Nora is a knight.' How many of them are knights?",
+        "choices": [
+            "A) 0",
+            "B) 1",
+            "C) 2",
+            "D) 3"
+        ],
+        "answer": "D",
+        "explanation": "Assume Milo is a knight. Then Nora is a knave and Owen is a knight. Nora's statement 'Milo is a knight or Owen is a knave' would be false, which fits her being a knave. Owen's statement 'If Milo is a knave, then Nora is a knight' is vacuously true since Milo is a knight. Thus, all three are knights. D is correct."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Nine people sit around a circular table. A is between B and C. D is two seats to the right of E, who is directly opposite F. G is adjacent to H, who is not adjacent to I. I is directly opposite J, who is two seats to the left of A. Who is sitting between D and F?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) G",
+            "D) D) H"
+        ],
+        "answer": "C",
+        "explanation": "D is two right of E, who is opposite F. I is opposite J, two left of A. G is adjacent to H, not adjacent to I. Thus, G is between D and F based on relative positions and adjacency constraints."
+    },
+    {
+        "topic": "Logical Reasoning",
+        "question": "On an island of knights and knaves, three individuals\u2014Milo, Nora, and Otto\u2014make the following statements: Milo says, 'Nora is a knave and Otto is a knight.' Nora says, 'Milo is a knight and Otto is a knave.' Otto says, 'Milo is a knave or Nora is a knight.' If exactly one of them is a knight, who is the knight?",
+        "choices": [
+            "A) Milo",
+            "B) Nora",
+            "C) Otto",
+            "D) None of them"
+        ],
+        "answer": "B",
+        "explanation": "Assume Milo is a knight: then Nora is a knave and Otto is a knight. But this contradicts the 'exactly one knight' condition. Assume Nora is a knight: then Milo is a knight and Otto is a knave. Again, contradiction. Assume Otto is a knight: his statement 'Milo is a knave or Nora is a knight' is true. If Milo is a knave, his statement is false, so Nora is a knight and Otto is a knave\u2014contradiction. Only valid scenario: Nora is a knight, Milo and Otto are knaves. Her statement holds, and Otto's statement is false."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit around a circular table. A is two seats to the left of B, who is directly opposite C. D is adjacent to E, and F is two seats to the right of D. If A is not adjacent to F, who is sitting between B and C?",
+        "choices": [
+            "A) A) D",
+            "B) B) E",
+            "C) C) F",
+            "D) D) A"
+        ],
+        "answer": "D",
+        "explanation": "B is opposite C, so they are not adjacent. A is two left of B, and F is two right of D. D is adjacent to E, so D and E are next to each other. A is not adjacent to F, so A must be between B and C. Thus, A is between B and C."
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "answer": "B",
+        "reasoning": "I is adjacent to A and faces outward, so I is next to A. A is opposite D, and D is adjacent to E, who faces outward. B is two seats left of C, who faces outward. F is between G and H, both facing outward. Since E faces outward and is adjacent to D, and D is opposite A, the only person between F and G is B."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If P is a truth-teller, then Q is a liar. If Q is a liar, then R is not a truth-teller. If R is a liar, then P is not a liar, which contradicts P being a truth-teller. If P is a liar, then Q is a truth-teller. If Q is a truth-teller, then R is a truth-teller. If R is a truth-teller, then P is a liar, which is consistent. Thus, Q and R are truth-tellers, making the answer B (1 truth-teller)."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Ramesh, and Radha is the daughter of Ramesh's only sister. This makes Ravi and Radha cousins. Therefore, Ravi's son is Radha's son's cousin. The correct answer is A) Cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If Q is the truth-teller, then R is a truth-teller (contradiction). If P is the truth-teller, then Q is a liar, making R a truth-teller (contradiction). If R is the truth-teller, then P is a liar, making Q a truth-teller (contradiction). Thus, none can be the truth-teller if exactly one is. Therefore, the correct answer is D."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Priya's maternal uncle, making Ravi Priya's cousin. Priya's father's only sister is married to Ravi's paternal grandfather's only daughter, confirming they are cousins. Thus, Ravi is Priya's cousin."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "If X is a truth-teller, then Y is a liar. If Y is a liar, then Z is not a truth-teller. If Z is a liar, then X is not a liar, which contradicts X being a truth-teller. Thus, X must be a liar. If X is a liar, then Y is not a liar, so Y is a truth-teller. If Y is a truth-teller, then Z is a truth-teller. But if Z is a truth-teller, then X is a liar, which is consistent. So only Y and Z are truth-tellers, making the answer one."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the brother of B, who is the daughter of C. J is the daughter of K, who is the only daughter of L. M is the son of N, who is the only son of O, who is the only son of P, who is the only daughter of Q. Since A and J are from different family lines with no direct parent-child or sibling relationship, A is J's cousin."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Since F is directly opposite A in a circular table with 6 people, A and F are seated across from each other. D is two seats to the right of E, so E and D are two seats apart. Given the arrangement, the person between E and D is F. Thus, the correct answer is D."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Suman's only sister, making Suman Ravi's cousin. Suman's father is the brother of Lata's mother, so Lata and Ravi share a common grandparent. Since Lata is the daughter of Ravi's paternal grandfather, she is Ravi's cousin."
+    },
+    {
+        "answer": "A",
+        "reasoning": "If X is a truth-teller, then Y is a liar. If Y is a liar, then Z is not a truth-teller. If Z is a liar, then X and Y are not of the same type, which is consistent because X is a truth-teller and Y is a liar. Thus, only X is a truth-teller. If X were a liar, then Y is a truth-teller, which would make Z a truth-teller, contradicting Z's statement. Hence, only one truth-teller exists."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If Q is the truth-teller, then R is a truth-teller, which contradicts the condition of exactly one truth-teller. If P is the truth-teller, then Q is a liar, making R a truth-teller, again contradicting the condition. If R is the truth-teller, then P is a liar, making Q a truth-teller, which also contradicts the condition. Thus, none can be the truth-teller, making D correct. However, the correct answer is B because if Q is the truth-teller, then R is a truth-teller, which contradicts the condition. Therefore, the correct answer is B."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "If Z is the truth-teller, then X and Y are of the same type. If Y is a truth-teller, then Z is a truth-teller, which contradicts Z being the only truth-teller. If X is a truth-teller, then Y is a liar, making Z a liar, which contradicts Z being the only truth-teller. Thus, Z must be the truth-teller, and X and Y are liars."
+    },
+    {
+        "answer": "D",
+        "reasoning": "If A and D are truth-tellers, then A's statement that B is a liar is true, and D's statement that A is a truth-teller is true. B's statement that C is a truth-teller would be false, making B a liar. C's statement that D is a liar would also be false, making C a liar. This satisfies the condition of exactly two truth-tellers (A and D) and two liars (B and C)."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If P is a truth-teller, then Q is a liar. If Q is a liar, then R is not a truth-teller. If R is a liar, then P is not a liar, which contradicts P being a truth-teller. If P is a liar, then Q is a truth-teller. If Q is a truth-teller, then R is a truth-teller. If R is a truth-teller, then P is a liar, which is consistent. Thus, only Q and R are truth-tellers, making the answer B) 1."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "A is opposite B, so they are separated by two people. C is two seats to the right of D. E is adjacent to A and F. F is not adjacent to D. Placing A and B opposite each other, and E next to A, we find that C must be between D and E to satisfy all conditions."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ravi is the father of Anika, making him the son-in-law of Anika's paternal grandfather. The grandfather is the father of Anika's father, and since Ravi is married to Anika's mother, he becomes the son-in-law of the grandfather."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the son of B, who is the daughter of C. J is the son of K, who is the daughter of L. Since A and J are from different family lines with no direct familial connection, they are cousins. Therefore, the correct answer is A) Cousin."
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit around a circular table. A is two seats to the right of B, who is opposite C. D is adjacent to E, who is two seats to the left of F. If A is not adjacent to F, who is sitting between B and C?",
+        "choices": [
+            "A) A) D",
+            "B) B) E",
+            "C) C) F",
+            "D) D) A"
+        ],
+        "answer": "C",
+        "explanation": "B is opposite C, so they are separated by two people. A is two seats right of B, placing A two seats away from C. D is adjacent to E, who is two left of F. Only F can be between B and C without conflicting with A's position.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the son of B's only sister. B is the brother-in-law of C, who is the daughter of D. D is the mother of E, who is the father of F. How is F related to A?",
+        "choices": [
+            "A) A) Nephew",
+            "B) B) Cousin",
+            "C) C) Uncle",
+            "D) D) Maternal Uncle"
+        ],
+        "answer": "D",
+        "explanation": "A is the son of B's sister, making A B's nephew. B is the brother-in-law of C, who is D's daughter. D is E's mother, making E D's son. F is E's son, so F is D's grandson. A is the son of B's sister, and B is the brother-in-law of C, who is D's daughter. Thus, F is A's maternal uncle.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Nine people sit around a circular table, facing the center. A is third to the left of B, who is directly opposite C. D is adjacent to E, who is two seats to the right of F. G is seated between H and I, with H facing outward. J is seated two seats to the left of K, who is adjacent to L. If L is seated directly opposite A, who is seated directly opposite K?",
+        "choices": [
+            "A) A) J",
+            "B) B) H",
+            "C) C) I",
+            "D) D) G"
+        ],
+        "answer": "B",
+        "explanation": "L is opposite A, placing A at a position. K is adjacent to L, so K is next to L. H is between G and I, and G is between H and I. K is two seats left of J, placing J opposite K. H is directly opposite K due to seating constraints.",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Nine people are seated around a circular table, facing the center. A is second to the left of B, who is directly opposite C. D is adjacent to E, who is two seats to the right of F. G is seated between H and I, with H facing the same direction as I. J is not adjacent to A or C. Who is seated between D and F?",
+        "choices": [
+            "A) A) B",
+            "B) B) H",
+            "C) C) I",
+            "D) D) G"
+        ],
+        "answer": "D",
+        "explanation": "G is between H and I, and D is adjacent to E, who is two seats right of F. This places G between D and F based on the circular arrangement and adjacency constraints.",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, A is the brother of B, who is the daughter of C. D is the son of E, who is the only sibling of F. F is the mother of G, who is the only child of H. I is the father of J, who is the only child of K. L is the son of M, who is the only sibling of N. N is the daughter of O, who is the only child of P. How is J related to L?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Uncle",
+            "D) D) Father"
+        ],
+        "answer": "C",
+        "explanation": "J is the child of K, and L is the son of M. M is the sibling of N, who is the daughter of O, who is the child of P. Since J and L are both children of different parents, and their parents are siblings, J is the nephew of L. However, since L is the son of M, and J is the child of K, who is the only child of I, J is the nephew of L. Therefore, L is the uncle of J.",
+        "expected_answer_letter": "A"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit in a circular table with three facing the center and three facing outward. A is directly opposite D. B is second to the left of E, who is facing outward. C is adjacent to F, who is facing the center. E is not adjacent to A. Who is facing outward?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) E",
+            "D) D) F"
+        ],
+        "answer": "C",
+        "explanation": "D is opposite A, so D faces outward. B is second left of E, who faces outward. C is adjacent to F (facing center). E is not adjacent to A, so E must face outward.",
+        "expected_answer_letter": "C"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Anjali's maternal uncle. Anjali's father is the brother of Ravi's paternal grandfather. How is Ravi related to Anjali's mother?",
+        "choices": [
+            "A) A) Father",
+            "B) B) Brother",
+            "C) C) Uncle",
+            "D) D) Cousin"
+        ],
+        "answer": "B",
+        "explanation": "Anjali's maternal uncle is Ravi's father. Anjali's mother is the sister of Ravi's father, making them siblings. Thus, Ravi is Anjali's brother.",
+        "expected_answer_letter": "C"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "If Ravi is the son of the only daughter of the mother of Ramesh, and Ramesh is the father of Suresh, who is the brother of Ravi, how is Ravi related to Ramesh's mother?",
+        "choices": [
+            "A) A) Son-in-law",
+            "B) B) Nephew",
+            "C) C) Cousin",
+            "D) D) Brother"
+        ],
+        "answer": "C",
+        "explanation": "Ravi's mother is Ramesh's daughter, making Ravi Ramesh's son. Ramesh's mother is Ravi's grandmother. Thus, Ravi is the grandson of Ramesh's mother, not a cousin.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "On an island, there are three inhabitants: X, Y, and Z. X says, 'Y is a liar.' Y says, 'Z is a truth-teller.' Z says, 'X is a liar.' If exactly one of them is a truth-teller, who is it?",
+        "choices": [
+            "A) A) X is the truth-teller",
+            "B) B) Y is the truth-teller",
+            "C) C) Z is the truth-teller",
+            "D) D) None of them is a truth-teller"
+        ],
+        "answer": "C",
+        "explanation": "If Z is the truth-teller, then X is a liar, making X's statement false (so Y is not a liar, i.e., Y is a truth-teller). But this contradicts the condition that only one is a truth-teller. If Y is the truth-teller, then Z is a truth-teller, contradicting the condition. If X is the truth-teller, then Y is a liar, making Y's statement false (so Z is not a truth-teller), but Z's statement would then be true, making Z a truth-teller, again contradicting the condition. Thus, only Z can be the truth-teller without contradiction.",
+        "expected_answer_letter": "C"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Ramesh's only sister. Ramesh's mother is the daughter of Lata's father. Lata is the aunt of Ravi's mother. How is Lata related to Ravi?",
+        "choices": [
+            "A) A) Aunt",
+            "B) B) Mother",
+            "C) C) Grandmother",
+            "D) D) Cousin"
+        ],
+        "answer": "C",
+        "explanation": "Lata is Ravi's grandmother as she is the mother of Ravi's mother's father. Ravi's mother's father is Ramesh's father, and Lata is his mother.",
+        "expected_answer_letter": "A"
+    }
+]

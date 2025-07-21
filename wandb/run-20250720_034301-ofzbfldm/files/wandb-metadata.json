@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.8.0-63-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.12.10",
+  "startedAt": "2025-07-20T03:43:01.721659Z",
+  "program": "AAIPL_134_199_198_15/README-Copy1.ipynb",
+  "email": "nshravanreddy6@gmail.com",
+  "root": "/jupyter-tutorial/AAIPL_134_199_198_15",
+  "host": "0228dbcb0488",
+  "executable": "/usr/bin/python3.12",
+  "cpu_count": 20,
+  "cpu_count_logical": 20,
+  "gpu": "0x74b5",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "747760488448",
+      "used": "134117081088"
+    }
+  },
+  "memory": {
+    "total": "253347164160"
+  },
+  "cpu": {
+    "count": 20,
+    "countLogical": 20
+  },
+  "gpu_amd": [
+    {
+      "id": "0",
+      "uniqueId": "0x2689d7f13e43dc11",
+      "vbiosVersion": "113-M3000100-103",
+      "performanceLevel": "auto",
+      "maxPower": "750.0",
+      "series": "0x74b5",
+      "model": "0x74b5",
+      "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku": "M3000100",
+      "sclkRange": "500Mhz - 2100Mhz",
+      "mclkRange": "900Mhz - 1300Mhz"
+    }
+  ]
+}

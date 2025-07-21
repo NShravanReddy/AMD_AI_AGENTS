@@ -1,0 +1,8 @@
+{"time":"2025-07-19T11:08:34.179171467Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/jupyter-tutorial/AAIPL_134_199_198_15/wandb/run-20250719_110834-ght5olyw/logs/debug-core.log"}
+{"time":"2025-07-19T11:08:34.477235176Z","level":"INFO","msg":"stream: created new stream","id":"ght5olyw"}
+{"time":"2025-07-19T11:08:34.47725738Z","level":"INFO","msg":"stream: started","id":"ght5olyw"}
+{"time":"2025-07-19T11:08:34.477305963Z","level":"INFO","msg":"writer: Do: started","stream_id":"ght5olyw"}
+{"time":"2025-07-19T11:08:34.477443194Z","level":"INFO","msg":"handler: started","stream_id":"ght5olyw"}
+{"time":"2025-07-19T11:08:34.477453483Z","level":"INFO","msg":"sender: started","stream_id":"ght5olyw"}
+{"time":"2025-07-19T11:08:34.528231306Z","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-07-19T11:08:34.528287575Z","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}

@@ -1,0 +1,16 @@
+{"time":"2025-07-19T11:10:17.555797374Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/jupyter-tutorial/AAIPL_134_199_198_15/wandb/run-20250719_111017-7u6r33ph/logs/debug-core.log"}
+{"time":"2025-07-19T11:10:17.601542772Z","level":"INFO","msg":"stream: created new stream","id":"7u6r33ph"}
+{"time":"2025-07-19T11:10:17.601559646Z","level":"INFO","msg":"stream: started","id":"7u6r33ph"}
+{"time":"2025-07-19T11:10:17.601608923Z","level":"INFO","msg":"handler: started","stream_id":"7u6r33ph"}
+{"time":"2025-07-19T11:10:17.601622488Z","level":"INFO","msg":"writer: Do: started","stream_id":"7u6r33ph"}
+{"time":"2025-07-19T11:10:17.601686494Z","level":"INFO","msg":"sender: started","stream_id":"7u6r33ph"}
+{"time":"2025-07-19T11:10:17.823809561Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-19T12:13:45.040954969Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-19T12:13:45.041016251Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-19T12:13:45.41914431Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-19T12:13:45.536982322Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-19T12:13:45.539579342Z","level":"INFO","msg":"stream: closing","id":"7u6r33ph"}
+{"time":"2025-07-19T12:13:45.539590402Z","level":"INFO","msg":"handler: closed","stream_id":"7u6r33ph"}
+{"time":"2025-07-19T12:13:45.539596276Z","level":"INFO","msg":"writer: Close: closed","stream_id":"7u6r33ph"}
+{"time":"2025-07-19T12:13:45.539606512Z","level":"INFO","msg":"sender: closed","stream_id":"7u6r33ph"}
+{"time":"2025-07-19T12:13:45.539641485Z","level":"INFO","msg":"stream: closed","id":"7u6r33ph"}

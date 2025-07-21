@@ -1,0 +1,334 @@
+[
+    {
+        "answer": "D",
+        "reasoning": "Given the constraints, H is next to D, and D is opposite E. J is opposite K, so K is opposite J. Since I is three seats to the left of J, and F is two seats to the right of G (who is adjacent to H), the only person opposite J is K. Thus, the correct answer is D) K."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A is opposite D, so they are separated by two people. B is two seats to the right of E. C is adjacent to A and F. F is not adjacent to E. Placing A and D opposite each other, and considering the positions of B, E, C, and F, the only person between B and E is D."
+    },
+    {
+        "answer": "B",
+        "reasoning": "A is the brother-in-law of D, meaning A is married to D's sister or D is married to A's sister. G is the cousin of J, so they share a common grandparent. I is the father of H, and H is the parent of G. L is the mother of K, and K is the parent of J. Since I is the father of G's parent and L is the mother of J's parent, I is the uncle of J. Thus, I is the uncle of L's child, making I the uncle of L's relative, so I is the uncle of L."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume C is the knight. Then C's statement 'A is a knave or B is a knight' is true. If A is a knave, then A's statement 'B is a knave and C is a knight' is false, which is consistent. If B is a knight, then B's statement 'A is a knight and C is a knave' is false, which is also consistent. Thus, only C can be the knight while keeping exactly one knight."
+    },
+    {
+        "answer": "C",
+        "reasoning": "A is between B and F, so the order is B-A-F or F-A-B. E is opposite A, so E is across from A. C is two seats to the left of D. B is not adjacent to D. Placing the people around the table, C is between D and F. Thus, the person between C and D is F."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Given A is opposite B, and E is between A and F, with F two seats to the right of C, and C two seats to the left of D, the arrangement places D next to both A and F. By logical deduction and positioning, D is seated adjacent to A and F."
+    },
+    {
+        "answer": "A",
+        "reasoning": "F is the son of E, who is the daughter of D, the brother of A. G is the daughter of B, who is the sister of A. Therefore, F and G are cousins as they share a common grandparent (A or D)."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Given A is opposite F and D is three seats to the right of A, placing A at position 1, D at 4, F at 5. B is two left of C, who is adjacent to D. Placing C at 6, B at 4 (conflict), so adjust. E is between G and H, I is two right of H. Placing H at 8, I at 10 (conflict), adjust. Final arrangement shows I is opposite D."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ramesh's only sister is married to Ravi's paternal grandmother's only daughter. This makes the sister of Ramesh's only daughter the cousin of Ravi. Therefore, Ravi is the cousin of the sister of Ramesh's only daughter."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Anika is the daughter of Ravi's only brother, making Ravi her cousin. Ravi's father is married to the daughter of Mohan's only son, meaning Mohan is the father of Ravi's father's wife's father. Since Mohan is the brother of Anika's maternal grandfather, Anika is Mohan's cousin. Thus, the correct answer is A) Cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Z is the knight, then his statement 'X is a knave or Y is a knight' is true. Assuming Z is a knight, X and Y must be knaves. X's statement 'Y is a knave and Z is a knight' would be true if Y is a knave and Z is a knight, but since X is a knave, this statement must be false. Y's statement 'X is a knight and Z is a knave' is also false, as X is a knave and Z is a knight. This satisfies the condition of exactly one knight (Z)."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the given information, C is adjacent to both A and I. Since A is opposite D, and C is adjacent to A, C must be next to A. Also, C is adjacent to I, and G is between H and I. H is opposite F, and B is two seats left of E, who is adjacent to F. By placing the people according to these constraints, C is seated between B and F."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If Nora is the knave, then Milo's statement 'Nora is a knave and Owen is a knight' would be true (since Nora is a knave), making Milo a knight. Nora's statement 'Milo is a knight and Owen is a knave' would be false, confirming she is a knave. Owen's statement 'At least one of Milo or Nora is a knave' would be true (Nora is a knave), making Owen a knight. This satisfies the condition of exactly two knights (Milo and Owen) and one knave (Nora)."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the brother of B, who is the daughter of C. D is the son of E, who is the sister-in-law of C. F is the father of G, who is the daughter of H, who is the son of D. Since D is the son of E and E is the sister-in-law of C, D is the brother-in-law of C. H is the son of D, making H the son-in-law of C. Since A is the brother of B (daughter of C), A is the cousin of H."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the given information, A is opposite B, and E is adjacent to F, who is two seats to the left of A. This places F two seats left of A, and E next to F. C is two seats to the right of D. Since B is not adjacent to C, the only person sitting between D and E is C."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Ravi is the son of Priya's only brother, making Ravi Priya's cousin. Priya's father is the brother of Ravi's paternal grandfather, confirming they are cousins. Ravi's mother is the daughter of Ravi's maternal grandmother, which does not affect the relationship between Ravi and Priya's mother. Thus, Ravi is Priya's cousin."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Rajesh's mother is the only daughter of Ravi's paternal grandfather, making her Ravi's aunt. Since Ravi's only sibling is Priya, and Anika is Ravi's daughter, Rajesh's mother is Anika's cousin."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "Assume Z is the knight. Then Z's statement 'X is a knave if and only if Y is a knight' must be true. If Z is a knight, then X and Y must be knaves. X's statement 'Y is a knave and Z is a knight' would be true if Y is a knave and Z is a knight, but X is a knave, so this is a contradiction. Y's statement 'Z is a knave or X is a knight' would be false if Z is a knight and X is a knave, which is consistent with Y being a knave. Thus, Z is the only knight."
+    },
+    {
+        "answer": "B",
+        "reasoning": "J is the daughter of I, and I is the son of H. H is the brother of G, who is the daughter of F. F is the son of E, who is the father of D. D is the mother of A. Therefore, J is the niece of A."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "A is opposite D, so they are separated by two people. B is two seats to the left of E, meaning B and E are separated by one person. C is adjacent to both A and F, so C is next to A and F. F is not adjacent to D, so F cannot be next to D. The only person that fits between B and E is C."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Anjali is the mother of Ravi, and Priya is Ravi's sister. Therefore, Anjali is the grandmother of Priya. Mahesh is Anjali's husband, and Ramesh is their son. Priya is the daughter of Ramesh, making Anjali Priya's grandmother."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Ravi is the son of Priya's father's only brother, making Ravi the brother of Priya's father. Priya is the daughter of Ravi's paternal aunt, meaning Priya is Ravi's cousin. Ravi's mother is the sister of Priya's maternal grandmother, confirming the cousin relationship. Thus, Ravi is Priya's nephew."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A is opposite D, so they are seated across from each other. B is two seats to the left of C, and E is adjacent to both A and F. Since F is not adjacent to D, F must be next to E. This places E between B and C, making D the correct answer."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Given B is at position 1, and A is between B and C, C must be at position 3. D is two seats to the right of E, so if E is at position 2, D is at 4. F is directly opposite G, so if G is at 5, F is at 1 (but B is there), so G must be at 3 (C is there), so this doesn't fit. H is adjacent to I and J, and J is not adjacent to A. Testing positions, F is at position 5."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Z is the knight. Then Z's statement 'X is a knave or Y is a knight' is true. If X is a knave, his statement 'Y is a knave and Z is a knight' is false, which is consistent. If Y is a knight, his statement 'X is a knight and Z is a knave' is false, which is also consistent. Thus, only Z can be the knight if exactly one is a knight."
+    },
+    {
+        "answer": "D",
+        "reasoning": "B is at 12 o'clock. A is between B and C, so A is at 11 or 1 o'clock, and C is at 1 or 11. D is opposite E, so they are 3 seats apart. F is two left of G, who is adjacent to H. I is next to F and H. Placing B at 12, A at 11, C at 1. D and E are opposite, so D is at 6 and E at 12 (but B is at 12), so D must be at 6. Thus, D is at 6 o'clock."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Rajesh's mother's brother is Ravi's father. Ravi's mother is the daughter of Ravi's maternal grandfather, making Ravi and Rajesh cousins. Thus, the correct answer is A) Cousin."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Given J is directly opposite A, and A is between B and C, J is opposite A. H is adjacent to I, who is two seats to the left of J. D is two seats to the right of E. F is directly opposite G. By placing J opposite A and working through the relationships, D ends up between E and A. Thus, D is seated between D and E."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Given the arrangement, A is opposite B. E is between A and C, and E is adjacent to F. Since B is not adjacent to D, and C is two seats to the left of D, the only person between A and C is E. Thus, the correct answer is E."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Charlie is a knight. Then his statement 'Alice is a knave if and only if Bob is a knight' is true. If Alice is a knave, then Bob must be a knight. But Alice's statement 'Bob is a knave and Charlie is a knight' would be false, which is consistent if Alice is a knave. Bob's statement 'Charlie is a knave or Alice is a knight' is false if Charlie is a knight and Alice is a knave, making Bob a knave. This matches all conditions, so Charlie is the only knight."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Owen is a knight. Then his statement 'If Milo is a knight, then Nora is a knave' must be true. If Milo is a knight, then Nora must be a knave. If Milo is a knave, the implication is true regardless. Nora's statement 'Milo is a knave or Owen is a knave' would be false if both are knights, but Owen is a knight, so Milo must be a knave. This makes Nora a knave, consistent with Owen's statement. Thus, Owen is the only knight."
+    },
+    null,
+    {
+        "answer": "B",
+        "reasoning": "Anjali's mother is the sister of Ravi's paternal grandfather, making Anjali and Ravi siblings of the same parent. Ravi is the son of Anjali's only brother, so they are cousins. Thus, Ravi is Anjali's cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If Nia is the knave, then her statement 'Mira is a knight and Ora is a knave' is false. This means either Mira is a knave or Ora is a knight (or both). If Mira is a knight, her statement 'Nia is a knave and Ora is a knight' is true, which fits. Ora's statement 'Mira is a knave or Nia is a knight' is true because Nia is a knave, so the second part is false, but the first part is false, making the whole statement false. This contradiction means Nia must be the knave."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the brother of Sita, who is the daughter of Ramesh. Lata is the daughter of Mahesh, and Ramesh is the son of Lata's father, Mahesh. Since Ramesh is the son of Mahesh, Ravi is the son of Ramesh's brother, making Ravi Mahesh's cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Gamma is a knight. Then Beta is a knight if and only if Alpha is a knave. If Alpha is a knave, his statement is false, so Beta is not a knave and Gamma is not a knight. This contradicts Gamma being a knight. If Beta is a knight, his statement is true, so Gamma is a knave or Alpha is a knight. If Gamma is a knight, this is false, so Alpha must be a knight. But this contradicts Alpha being a knave. Thus, Gamma must be a knight, and Beta is a knave. Alpha is a knave, so the only knight is Gamma."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Aarav's father's only brother is the father of Aarav's uncle's only daughter. This means the uncle's daughter is the daughter of Aarav's father's brother, making her Aarav's cousin."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "T is the brother of U, making them cousins. Since U is the only child of V and W, and T is U's brother, they are cousins. The question asks how T is related to U, and since they are siblings, the correct answer is cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Owen is the knight. Then his statement 'If Milo is a knight, then Nora is a knave' must be true. If Milo were a knight, Nora would be a knave, but that would make Milo's statement true and Nora's statement false, which would mean two knights (Milo and Owen), contradicting the condition. If Milo is a knave, his statement is false, so either Nora is a knight or Owen is a knave. Since Owen is a knight, Nora must be a knave. This satisfies the condition of exactly one knight (Owen)."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the given information, we know A is between B and C. D is two seats to the right of E, who is directly across from F. G is adjacent to H, who is opposite I. J is three seats to the left of K, who is not adjacent to A. L is next to I and not opposite anyone. By analyzing the seating arrangement and eliminating contradictions, D is determined to be opposite A."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Given A is opposite D, and C is adjacent to both A and F, C must be next to A. B is two seats left of E, and F is not adjacent to E. Placing A and D opposite each other, with C next to A, F must be next to C. B is two seats left of E, so E is two seats right of B. The only person between B and E is C."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "Assume Z is the knight. Then Z's statement 'X is a knave or Y is a knight' is true. If X is a knave, then X's statement 'Y is a knave and Z is a knight' is false, which is consistent. If Y is a knight, then Y's statement 'X is a knight and Z is a knave' is false, which is also consistent. Thus, only Z can be the knight while keeping exactly one knight."
+    },
+    {
+        "answer": "B",
+        "reasoning": "A is the brother of B, and B is the daughter of C. D is the son of E, who is the sister of F. F is the mother of G, who is the daughter of H. H is the son of I, who is the brother of J. J is the father of K. A is not directly related to K through any common ancestor, but since J is the father of K and I is the brother of J, A is the cousin of J, making A the uncle of K."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A is at position 1, so B and C are at positions 2 and 3. D is two seats to the right of E, so if E is at position 4, D is at 6. F is opposite G, so if F is at 5, G is at 1 (but A is there), so F must be at 2 and G at 6. H is adjacent to I and J, and J is not adjacent to D. Placing H, I, J, and checking adjacency, D is at 6, so J cannot be at 5. The only position left for D is 5."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Anika's mother's sister is Rajesh's father's brother's wife, making her Rajesh's maternal aunt. Since Rajesh is the son of Anika's maternal uncle, Anika is the cousin of Rajesh."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Anjali's mother is the daughter of Ravi's paternal grandfather, making her Ravi's aunt. Since Ravi is the son of Anjali's only brother, Ravi is the nephew of Anjali's mother."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Caden is the knight. Then his statement 'Alaric is a knave and Bella is a knight' must be true. If Alaric is a knave, his statement 'Bella is a knight and Caden is a knave' is false, which is consistent. Bella's statement 'Caden is a knight if and only if Alaric is a knave' is true because both are true. This satisfies exactly one knight (Caden)."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Charlie is a knight. Then his statement 'If Alex is a knight, then Bob is a knave' is true. If Alex is a knight, Bob must be a knave. If Alex is a knave, the statement is vacuously true. Bob's statement 'Charlie is a knave or Alex is a knight' would be true if Alex is a knight (since Charlie is a knight, the first part is false, but the second is true). This is consistent. Alex's statement 'Bob is a knave and Charlie is a knight' would be true if Bob is a knave and Charlie is a knight. Thus, Charlie is a knight, and the others are knaves."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume C is a knight. Then C's statement 'A is a knight if and only if B is a knave' must be true. If A is a knight, B must be a knave. If A is a knave, B must be a knight. B's statement 'A is a knave or C is a knight' is true if C is a knight. A's statement 'B is a knight and C is a knave' is false if C is a knight. Thus, only C is a knight, satisfying the condition of exactly one knight."
+    },
+    {
+        "answer": "B",
+        "reasoning": "J is three seats to the right of A, so A is three seats to the left of J. I is two seats to the left of J, so I is one seat to the left of A. Since A is between B and C, B is to the left of A and C is to the right. Therefore, B is opposite A."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Ramesh, and Ramesh's father's daughter is Ravi's aunt. Since Ravi is the son of Ramesh, he is the cousin of Ramesh's father's daughter."
+    },
+    {
+        "answer": "B",
+        "reasoning": "From the given information, A is opposite D. B is two seats to the left of E. C is adjacent to A and F. F is between B and C. Since C is adjacent to A, and F is between B and C, F must be next to C. Since A is opposite D, the person between A and D must be B. This fits all conditions."
+    },
+    {
+        "answer": "A",
+        "reasoning": "B is the brother of D, making B and D siblings. Since A is the son of B and C is the daughter of D, A and C are cousins. J is the daughter of M, and N is the son of O, who is the brother of M. Thus, N is the son of O, who is the brother of M, who is the mother of J. Therefore, A is the cousin of N."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Charlie is a knight, his statement 'At least one of Alice or Bob is a knave' is true. If Alice is a knave, her statement 'Bob is a knave and Charlie is a knight' is false, which means either Bob is a knight or Charlie is a knave. Since Charlie is a knight, Bob must be a knight. But Bob's statement 'Alice is a knight and Charlie is a knave' would then be false, which is consistent with Bob being a knave. This scenario satisfies exactly two knaves (Alice and Bob) and one knight (Charlie)."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ravi is the son of Ramesh. Ramesh's sister is the mother of Suman. Ramesh's brother-in-law is the father of Suman. Since Ramesh and his sister are siblings, and Ramesh's brother-in-law is his sister's husband, Ravi is the nephew of Suman's father. Therefore, Ravi is Suman's cousin."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Ravi's paternal aunt is the daughter of Ramesh's mother, making her Ravi's aunt. Ravi's paternal aunt's son is Ravi's cousin since they share the same grandparent (Ramesh's mother). Therefore, Ravi is the cousin of his paternal aunt's son."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Given A is opposite D, and C is adjacent to both A and F, C must be next to A. B is two seats left of E, and F is not adjacent to E. Placing A and D opposite, and C next to A, the only position for C between B and E is when B is two seats left of E, and C is adjacent to both. Thus, C is between B and E."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Ora is the knight, her statement 'Mira is a knave or Nia is a knight' is true. Since exactly one is a knight, Mira and Nia must be knaves. Mira's statement 'Nia is a knave and Ora is a knight' would be true if both parts are true, but Mira is a knave, so her statement must be false. Nia's statement 'Mira is a knight and Ora is a knave' is also false, which fits as Nia is a knave. Thus, Ora is the only knight."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ramesh's only sister is married to Ravi's paternal grandfather's only daughter, making them siblings. Therefore, Ramesh's only sister is Ravi's aunt. Ravi's paternal grandfather's only daughter is Ramesh's mother. Ramesh's only daughter is Ravi's cousin. Thus, Ravi is the cousin of Ramesh's only daughter."
+    },
+    {
+        "answer": "B",
+        "reasoning": "From the clues, J is three seats to the left of A, so A is three seats to the right of J. Since there are nine seats, the person directly opposite A would be three seats away in the other direction. Given A is between B and C, B is directly opposite A."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "We know A is between B and C, so A is adjacent to B and C. D is two seats to the right of E. F is directly opposite G. H is adjacent to I, who is not adjacent to A. J has two people between him and B. By analyzing the positions and constraints, D is directly opposite A."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Given A is opposite B, and B is between C and D, the order around the table is C, B, D. F is two seats to the right of A, and E is adjacent to F. Placing A and B opposite each other, with C and D on either side of B, F must be two seats to the right of A, making D adjacent to A."
+    },
+    {
+        "answer": "B",
+        "reasoning": "J is the daughter of I, who is the brother of H. H's mother is G, who is the mother of F. A is the father of B, who is the daughter of C. D is the brother of C, and E is the daughter of D. Therefore, J is the granddaughter of A through the lineage of C, D, E, F, G, H, and I."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ravi is the only son of Arun's father's only sister, making Ravi Arun's cousin. Arun is the son of Ravi's maternal grandfather's only daughter, confirming Ravi is Arun's cousin. Thus, Ravi is related to Arun's mother as a cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume C is the knight. Then C's statement 'A is a knight if and only if B is a knave' must be true. If A is a knight, B must be a knave, and vice versa. If A is a knight, then A's statement 'B is a knight and C is a knave' is false, which contradicts A being a knight. If B is a knight, B's statement 'A is a knave or C is a knight' is true, which is consistent. Thus, C being the knight satisfies all conditions with exactly one knight."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "If Z is the knight, then his statement 'X is a knave or Y is a knight' is true. Assuming Z is a knight, X and Y must be knaves. X's statement 'Y is a knave and Z is a knight' would be true if Y is a knave and Z is a knight, but since X is a knave, this statement must be false. Y's statement 'X is a knight and Z is a knave' would also be false if X is a knave and Z is a knight. Thus, only Z is a knight, satisfying the condition of exactly one knight."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Cael is the knight, his statement 'Alaric is a knave or Bryn is a knight' is true. Since exactly one is a knight, Alaric and Bryn must be knaves. Alaric's statement 'Bryn is a knight and Cael is a knave' is false, which is consistent with him being a knave. Bryn's statement 'Cael is a knight' is false, consistent with him being a knave. Thus, Cael is the only knight."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Gamma is the knight. Then Gamma's statement 'Alpha is a knave if and only if Beta is a knight' must be true. If Gamma is a knight, Alpha and Beta must be knaves. Alpha's statement 'Beta is a knave and Gamma is a knight' would be true, contradicting Alpha being a knave. Beta's statement 'Gamma is a knave or Alpha is a knight' would be false, consistent with Beta being a knave. Thus, Gamma is the only knight."
+    },
+    {
+        "answer": "C",
+        "reasoning": "A is the brother of B, who is the daughter of C. J is the daughter of K, and I is the mother of J. I is the sister of H, who is the brother of G. Since A and H are brothers, A is the uncle of J."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Otto is the knight. Then his statement 'Milo is a knave or Nora is a knight' must be true. If Milo is a knave, his statement 'Nora is a knave and Otto is a knight' is false, which is consistent. If Nora is a knight, her statement 'Milo is a knight and Otto is a knave' is false, which is also consistent. Only Otto is a knight, satisfying the condition."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Owen is a knight. Then his statement 'Nora is a knight if and only if Milo is a knave' is true. If Milo is a knave, his statement 'Nora is a knave and Owen is a knight' is false. This means either Nora is not a knave or Owen is not a knight. Since Owen is a knight, Nora must be a knight. Nora's statement 'Milo is a knight or Owen is a knave' is true because Owen is a knight. Thus, only Owen is a knight."
+    },
+    null,
+    {
+        "answer": "B",
+        "reasoning": "Anjali is the daughter of Ravi's paternal grandfather's only daughter, meaning Anjali is Ravi's aunt. Ravi is the son of Anjali's only brother, so Anjali's brother is Ravi's father. Therefore, Anjali is Ravi's aunt, making Ravi the nephew of Anjali's mother."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ravi is the son of Priya's father's only sister, making Ravi Priya's cousin. Priya is the daughter of Ravi's paternal grandfather's only daughter, confirming they are cousins. Thus, Ravi is Priya's cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Given the seating arrangement, A is two seats to the left of B, and F is between A and C. Since B is facing the center, the opposite of A would be B. D is opposite E, but this does not affect A's opposite. Thus, B is the correct answer."
+    },
+    null,
+    {
+        "answer": "B",
+        "reasoning": "Given A is opposite D, and E faces the same direction as D, E must be opposite A. B is two seats to the left of E, so B is two seats left of A. C is adjacent to F and faces the same direction as B, so F is adjacent to C. Since F is not adjacent to A, the person between A and D is B."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Rajesh is the brother of Ravi, who is the son of Ramesh. Radha is the daughter of Ramesh's only sibling, making her Ramesh's niece. Since Rajesh is Ravi's brother, he is also Radha's cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Ramesh is the father of Ravi, so he is Ravi's father. Ravi's mother is Ramesh's wife. Ramesh is the brother of Ramesh's wife's father, making Ramesh the brother-in-law of Ravi's mother."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, J is between A and D, so A-J-D. D is two seats to the right of E, so E-D-F. F is opposite G. H is adjacent to I, who is not opposite J. Since there are 9 seats, opposite is 4 seats apart. I is not opposite J, so I must be opposite D. Thus, the answer is D."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Owen is the knight. Then his statement 'Nora is a knave and Milo is a knight' must be true. This makes Nora a knave and Milo a knight. But Milo's statement 'Nora is a knight and Owen is a knave' would then be false, which is consistent with Milo being a knight (as knights tell the truth). Nora's statement 'Milo is a knave or Owen is a knight' is true because Owen is a knight, but since Nora is a knave, she must be lying. This fits the condition of exactly one knight (Owen)."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Given the circular arrangement, we know A is opposite B. C is two seats left of D, and D is adjacent to E. F is between G and H, and G is opposite I. Since E is not adjacent to A, the only person directly opposite F is D. This is determined by placing all individuals in the circle based on the given constraints and checking the opposite positions."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Gamma is the knight. Then Gamma's statement 'Alpha is a knave if and only if Beta is a knight' must be true. If Gamma is a knight, Alpha and Beta must be knaves. Alpha's statement 'Beta is a knave and Gamma is a knight' would be true, contradicting Alpha being a knave. Beta's statement 'Gamma is a knave or Alpha is a knight' is false, which fits Beta being a knave. Thus, Gamma is the only knight."
+    }
+]

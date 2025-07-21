@@ -1,0 +1,15 @@
+Weights & Biases initialized successfully
+Starting GRPO training...
+/usr/local/lib/python3.12/dist-packages/accelerate/state.py:269: UserWarning: OMP_NUM_THREADS/MKL_NUM_THREADS unset, we set it at 20 to improve oob performance.
+  warnings.warn(
+The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers and GPU quantization are unavailable.
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+INFO 07-20 00:23:38 [__init__.py:30] Available plugins for group vllm.general_plugins:
+INFO 07-20 00:23:38 [__init__.py:32] name=lora_filesystem_resolver, value=vllm.plugins.lora_resolvers.filesystem_resolver:register_filesystem_resolver
+INFO 07-20 00:23:38 [__init__.py:34] all available plugins for group vllm.general_plugins will be loaded.
+INFO 07-20 00:23:38 [__init__.py:36] set environment variable VLLM_PLUGINS to control which plugins to load.
+INFO 07-20 00:23:38 [__init__.py:44] plugin lora_filesystem_resolver loaded.
+INFO 07-20 00:23:43 [config.py:788] This model supports multiple tasks: {'classify', 'score', 'generate', 'reward', 'embed'}. Defaulting to 'generate'.
+INFO 07-20 00:23:43 [arg_utils.py:1601] rocm is experimental on VLLM_USE_V1=1. Falling back to V0 Engine.
+INFO 07-20 00:23:43 [config.py:1829] Disabling V1 multiprocessing for external launcher.
+Error during processing: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx

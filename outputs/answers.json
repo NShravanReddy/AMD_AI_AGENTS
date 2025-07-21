@@ -1,0 +1,83 @@
+[
+    {
+        "answer": "C",
+        "reasoning": "Assume C is a knight. Then C's statement 'A is a knight if and only if B is a knave' must be true. If A is a knight, then B must be a knave. But A says 'B is a knight and C is a knave', which would be false if A is a knight, contradicting the assumption. If A is a knave, then B must be a knight. But B says 'A is a knave or C is a knight', which is true if A is a knave. This fits with C being a knight and exactly one knight. Thus, C is the knight."
+    },
+    {
+        "answer": "B",
+        "reasoning": "A is the brother of B, and B is the daughter of C. D, G, J, and M are all sons of different people, each with their own parents. Since A is the cousin of D, G, J, and M, they must share the same grandparent. Therefore, A is the cousin of M."
+    },
+    {
+        "answer": "D",
+        "reasoning": "H is the brother of G, who is the mother of F. Since A is the father of B, and B is the daughter of C, A is the father of C's child. D is the brother of C, making D the brother-in-law of A. H, being the brother of G, is the uncle of F and thus the uncle of A's family. Therefore, H is the uncle of A."
+    },
+    {
+        "answer": "B",
+        "reasoning": "J is three seats to the left of A, so A is three seats to the right of J. Since the table is circular, A is directly opposite the person three seats away from J. A is between B and C, so B is on one side of A and C on the other. Therefore, the person directly opposite A is B."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A is between B and F, so the order is B-A-F or F-A-B. E is directly opposite A, so E is across from A. C is two seats to the left of D. B is not adjacent to D. Placing the people around the table, E is opposite A, so E is next to D. Thus, the person sitting next to E is D."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Since B faces outward, the arrangement is such that opposite seats face away from the center. A is two seats to the left of B, and B is opposite C. D is adjacent to E and faces the center. F is not adjacent to A. By placing the people according to these constraints, D ends up opposite A."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, B is directly opposite C, so they are separated by 3 seats. A is two seats to the left of B, placing A two seats counterclockwise from B. D is adjacent to E, who is two seats to the right of F. F is not adjacent to A. Placing the people in a circle, the only person between A and B is D."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Gamma is the knight. Then Gamma's statement 'Alpha is a knave or Beta is a knight' must be true. If Alpha is a knave, his statement 'Beta is a knave and Gamma is a knight' is false, which is consistent. Beta's statement 'Alpha is a knight and Gamma is a knave' is also false, which is consistent. Thus, only Gamma is a knight, satisfying the condition of exactly one knight."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the son of B, and B is the daughter of C. D is the brother of C, so D is the uncle of B. E is the daughter of D, F is the son of E, G is the daughter of F, and H is the son of G. Therefore, H is the nephew of F, who is the son of E, who is the daughter of D, who is the brother of C, who is the parent of B. Thus, H is the cousin of A."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume A is a knight. Then B is a knave and C is a knight. But B's statement would then be false, making B a knave, which is consistent. However, C's statement 'A is a knave or B is a knight' would be false if A is a knight and B is a knave, making C a knave, contradicting the assumption. If B is a knight, then A is a knight and C is a knave, but this leads to contradictions. If C is a knight, then either A is a knave or B is a knight. This is consistent with exactly one knight (C), as A and B's statements would be false. Thus, C is the knight."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi's father is Ramesh. Raviya is the daughter of Radha, who is Ramesh's sister. Raviya is also the daughter of Ramesh's sister, making her Ravi's cousin. Since Raviya is the mother of Ravi's cousin, she is Ravi's aunt."
+    },
+    [
+        "{\n    \"answer\": \"D) D\",\n    \"reasoning\": \"Given that E faces outward and C is adjacent to both E and F, C must be next to E and F. Since G faces the center and is two seats to the left of H, and H is not adjacent to B, the only person left who fits the role of engineer is D. The other options do not fit the constraints of the problem.\"\n}",
+        null,
+        null
+    ],
+    {
+        "answer": "B",
+        "reasoning": "Assume Alaric is a knight. Then Bella is a knight and Cody is a knave. Bella's statement 'Alaric is a knave or Cody is a knight' would be false, contradicting her being a knight. If Alaric is a knave, his statement is false, so Bella is a knave or Cody is a knight. If Bella is a knave, her statement is true, which is a contradiction. If Cody is a knight, his statement 'Alaric is a knight if and only if Bella is a knave' is true, matching Alaric being a knave and Bella being a knave. Thus, only Cody is a knight. But this contradicts. Correct scenario: Alaric is a knave, Bella is a knight, Cody is a knight. Thus, two knights."
+    },
+    {
+        "answer": [
+            "D",
+            null,
+            null
+        ],
+        "reasoning": "A is opposite B, so they are seated across from each other. C is two seats to the left of D, and E is adjacent to A. Since F is not adjacent to D, F must be seated opposite D. This leaves B between C and D."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Milo is a knight. Then his statement is true, so Nora is a knave and Owen is a knight. Nora's statement would then be false, which is consistent with her being a knave. Owen's statement is a conditional that is true if the antecedent is false or the consequent is true. Since Milo is a knight, the antecedent is false, making the conditional true. Thus, two are knights (Milo and Owen), making the answer C."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, I is directly opposite J, and J is two seats to the left of A. Since there are nine people, opposite means 4 seats apart. J is two seats left of A, so J is seat 3 left of A. I is directly opposite J, so I is 4 seats from J. By analyzing the positions and relationships, D is found to be between D and F based on the seating constraints."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Otto is the knight, his statement 'Milo is a knave or Nora is a knight' is true. Since exactly one is a knight, Milo and Nora must be knaves. Milo's statement 'Nora is a knave and Otto is a knight' would be false (as Nora is a knave and Otto is a knight, making the first part true but the second part true, so the whole statement is true, contradicting Milo being a knave). Nora's statement 'Milo is a knight and Otto is a knave' is false, which is consistent with her being a knave. Thus, Otto is the only knight."
+    },
+    {
+        "answer": [
+            "B",
+            null,
+            null
+        ],
+        "reasoning": "Given A is two seats to the left of B, and B is directly opposite C, the arrangement places A, B, and C with two seats between B and C. D is adjacent to E, and F is two seats to the right of D. Since A is not adjacent to F, the only person between B and C is B himself, as B is directly opposite C. Thus, B is sitting between B and C."
+    }
+]

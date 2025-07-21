@@ -1,0 +1,162 @@
+[
+    {
+        "id": 55,
+        "topic": "Truth-teller and Liar Problems",
+        "difficulty": "Easy",
+        "tokens": 65,
+        "question": "A knight always tells the truth, a knave always lies. Person A says 'I am a knight.' Person B says 'A is a knight.' What is B?",
+        "choices": [
+            "A) Knight",
+            "B) Knave",
+            "C) Cannot be determined",
+            "D) Same type as A"
+        ],
+        "answer": "A",
+        "explanation": "A must be a knight (as established earlier). B says 'A is a knight,' which is true. Since B makes a true statement, B is also a knight.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "id": 70,
+        "topic": "Truth-teller and Liar Problems",
+        "difficulty": "Hard",
+        "tokens": 68,
+        "question": "Six people form a circle. Each person says the person to their right is dishonest. If exactly three people are honest, how are they distributed?",
+        "choices": [
+            "A) Three consecutive honest people",
+            "B) Honest and dishonest people alternate",
+            "C) Three honest people evenly spaced",
+            "D) No valid arrangement exists"
+        ],
+        "answer": "C",
+        "explanation": "If each person says their right neighbor is dishonest, and exactly 3 are honest, then the 3 honest people must be evenly spaced (every other person) to make their statements about dishonest neighbors true.",
+        "expected_answer_letter": "C"
+    },
+    {
+        "id": 62,
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "difficulty": "Hard",
+        "tokens": 70,
+        "question": "Twenty people sit in a 4\u00d75 grid. Corner people face inward (4 people), edge people face outward (12 people), inner people face forward (4 people). How many face each direction?",
+        "choices": [
+            "A) Inward: 4, Outward: 12, Forward: 4",
+            "B) Inward: 4, Outward: 14, Forward: 2",
+            "C) Inward: 6, Outward: 10, Forward: 4",
+            "D) Inward: 4, Outward: 10, Forward: 6"
+        ],
+        "answer": "A",
+        "explanation": "In a 4\u00d75 grid: 4 corners face inward, 12 edge positions (perimeter minus corners) face outward, 4 inner positions face forward. Total: 4+12+4=20.",
+        "expected_answer_letter": "A"
+    },
+    {
+        "id": 8,
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "difficulty": "Hard",
+        "tokens": 69,
+        "question": "Nine people sit in a 3\u00d73 grid. Person A sits in the center. How many people can A see if each person can only see others in the same row or column?",
+        "choices": [
+            "A) 4",
+            "B) 6",
+            "C) 8",
+            "D) 9"
+        ],
+        "answer": "C",
+        "explanation": "From the center position, A can see 2 people in the same row (left and right), 2 people in the same column (up and down), and 4 people in the diagonal corners. Total: 8 people.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "id": 57,
+        "topic": "Puzzles involving generations and family tree logic",
+        "difficulty": "Easy",
+        "tokens": 61,
+        "question": "Suresh's daughter Maya is married to Raj. Raj's mother is Kavya. What relation is Kavya to Suresh?",
+        "choices": [
+            "A) Sister",
+            "B) Mother-in-law",
+            "C) Co-mother-in-law",
+            "D) Daughter-in-law"
+        ],
+        "answer": "C",
+        "explanation": "Kavya is Raj's mother, and Raj is married to Maya (Suresh's daughter). This makes Kavya and Suresh co-parents-in-law (co-mother-in-law and father-in-law).",
+        "expected_answer_letter": "C"
+    },
+    {
+        "id": 42,
+        "topic": "Puzzles involving generations and family tree logic",
+        "difficulty": "Medium",
+        "tokens": 65,
+        "question": "Kiran's grandfather has two sons. One son is Kiran's father. The other son has two daughters. How many female cousins does Kiran have?",
+        "choices": [
+            "A) 1",
+            "B) 2",
+            "C) 3",
+            "D) Cannot be determined"
+        ],
+        "answer": "B",
+        "explanation": "Kiran's cousins are the children of his father's siblings. The other son (Kiran's uncle) has two daughters, so Kiran has 2 female cousins.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "id": 76,
+        "topic": "Truth-teller and Liar Problems",
+        "difficulty": "Medium",
+        "tokens": 67,
+        "question": "A says 'Exactly two of us three are honest.' B says 'Exactly two of us three are dishonest.' C says nothing. How many are honest?",
+        "choices": [
+            "A) 1",
+            "B) 2",
+            "C) 3",
+            "D) Cannot be determined"
+        ],
+        "answer": "B",
+        "explanation": "A says 2 are honest, B says 2 are dishonest. These statements are equivalent (if 2 are honest, then 1 is dishonest, making B's statement false). If A is correct, exactly 2 people (including A) are honest.",
+        "expected_answer_letter": "A"
+    },
+    {
+        "id": 53,
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "difficulty": "Hard",
+        "tokens": 69,
+        "question": "Eighteen people sit around three hexagonal tables of six each. One person per table can communicate with people at other tables. What is the minimum number of communication steps needed for a message to reach all tables?",
+        "choices": [
+            "A) 1",
+            "B) 2",
+            "C) 3",
+            "D) 6"
+        ],
+        "answer": "B",
+        "explanation": "With three tables and one communicator per table, a message from one table can reach the second table in 1 step, and then from the second to the third table in another step. Minimum: 2 steps.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "id": 29,
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "difficulty": "Easy",
+        "tokens": 64,
+        "question": "Five students sit in a row for a photo. Ana wants to be in the middle position. Ben wants to be at one end. How many arrangements are possible?",
+        "choices": [
+            "A) 6",
+            "B) 12",
+            "C) 18",
+            "D) 24"
+        ],
+        "answer": "B",
+        "explanation": "Ana is fixed in position 3 (middle). Ben can be at position 1 or 5 (2 choices). The remaining 3 people can be arranged in 3! = 6 ways. Total: 2 \u00d7 6 = 12.",
+        "expected_answer_letter": "A"
+    },
+    {
+        "id": 20,
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "difficulty": "Easy",
+        "tokens": 63,
+        "question": "Six people sit around a circular table. A sits to the immediate left of B. How many people sit between A and B going clockwise?",
+        "choices": [
+            "A) 0",
+            "B) 1",
+            "C) 4",
+            "D) 5"
+        ],
+        "answer": "C",
+        "explanation": "If A sits to the immediate left of B, then going clockwise from A to B, we pass through 4 other people before reaching B.",
+        "expected_answer_letter": "C"
+    }
+]

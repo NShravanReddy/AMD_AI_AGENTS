@@ -1,0 +1,16 @@
+{"time":"2025-07-19T12:18:14.197149203Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/jupyter-tutorial/AAIPL_134_199_198_15/wandb/run-20250719_121814-tg362ymu/logs/debug-core.log"}
+{"time":"2025-07-19T12:18:14.235748466Z","level":"INFO","msg":"stream: created new stream","id":"tg362ymu"}
+{"time":"2025-07-19T12:18:14.235770704Z","level":"INFO","msg":"stream: started","id":"tg362ymu"}
+{"time":"2025-07-19T12:18:14.235794242Z","level":"INFO","msg":"writer: Do: started","stream_id":"tg362ymu"}
+{"time":"2025-07-19T12:18:14.235820281Z","level":"INFO","msg":"handler: started","stream_id":"tg362ymu"}
+{"time":"2025-07-19T12:18:14.235833294Z","level":"INFO","msg":"sender: started","stream_id":"tg362ymu"}
+{"time":"2025-07-19T12:18:14.400839899Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-19T12:19:11.239021028Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-19T12:19:11.239076921Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-19T12:19:11.629915932Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-19T12:19:11.715755692Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-19T12:19:11.717718538Z","level":"INFO","msg":"stream: closing","id":"tg362ymu"}
+{"time":"2025-07-19T12:19:11.717726164Z","level":"INFO","msg":"handler: closed","stream_id":"tg362ymu"}
+{"time":"2025-07-19T12:19:11.717732114Z","level":"INFO","msg":"writer: Close: closed","stream_id":"tg362ymu"}
+{"time":"2025-07-19T12:19:11.717767493Z","level":"INFO","msg":"sender: closed","stream_id":"tg362ymu"}
+{"time":"2025-07-19T12:19:11.717771818Z","level":"INFO","msg":"stream: closed","id":"tg362ymu"}

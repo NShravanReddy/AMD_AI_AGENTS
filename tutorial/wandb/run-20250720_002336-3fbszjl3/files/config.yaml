@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 11
+                - 30
+                - 41
+                - 49
+                - 51
+                - 71
+                - 84
+                - 95
+                - 98
+                - 105
+            "2":
+                - 1
+                - 11
+                - 30
+                - 41
+                - 49
+                - 51
+                - 71
+                - 84
+                - 95
+                - 98
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+                - 55
+            "4": 3.12.10
+            "5": 0.20.1
+            "6": 4.51.3
+            "12": 0.20.1
+            "13": linux-x86_64
+dataset_file:
+    value: formatted_questions_array.json
+gpu_ids:
+    value: "0"
+gradient_accumulation_steps:
+    value: 2
+learning_rate:
+    value: 1e-05
+lora_alpha:
+    value: 32
+lora_dropout:
+    value: 0.1
+lora_r:
+    value: 16
+max_seq_length:
+    value: 512
+model_name:
+    value: /jupyter-tutorial/hf_models/Qwen3-4B
+num_train_epochs:
+    value: 2
+per_device_train_batch_size:
+    value: 2
+training_type:
+    value: grpo

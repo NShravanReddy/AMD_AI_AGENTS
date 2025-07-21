@@ -1,0 +1,166 @@
+{
+    "Truth-teller and Liar Problems": [
+        {
+            "question": "A says 'B is a liar', B says 'A is a truth-teller'. Who is the liar?",
+            "choices": [
+                "A",
+                "B"
+            ],
+            "answer": "A",
+            "explanation": "If A is truth-teller, B is liar. If B is liar, A is liar. Contradiction. A is liar."
+        },
+        {
+            "question": "X says 'Y is a knight', Y says 'X is a knave'. Who is what?",
+            "choices": [
+                "X knight, Y knave",
+                "X knave, Y knight"
+            ],
+            "answer": "X knave, Y knight",
+            "explanation": "If X is knight, Y is knight. But Y says X is knave. Contradiction. X is knave."
+        },
+        {
+            "question": "Person A says, 'I am a liar.' Is A a truth-teller or a liar?",
+            "choices": [
+                "Truth-teller",
+                "Liar"
+            ],
+            "answer": "Paradox",
+            "explanation": "If A is a truth-teller, then A is lying, which is a contradiction. If A is a liar, then A is not lying, which is also a contradiction. This is the liar's paradox."
+        },
+        {
+            "question": "Three people, A, B, and C, are standing in a line. A says, 'B is lying.' B says, 'C is lying.' C says, 'A and B are both telling the truth.' Who is lying?",
+            "choices": [
+                "A",
+                "B",
+                "C"
+            ],
+            "answer": "B",
+            "explanation": "Assume A is telling the truth. Then B is lying. If B is lying, then C is telling the truth. But if C is telling the truth, then A and B are both telling the truth, which contradicts our assumption that B is lying. Therefore, A must be lying. If A is lying, then B is telling the truth. If B is telling the truth, then C is lying. This is consistent."
+        },
+        {
+            "question": "On an island, there are two types of people: knights, who always tell the truth, and knaves, who always lie. You encounter two people, P and Q. P says, 'Q is a knave.' Q says, 'P is a knight.' What are P and Q?",
+            "choices": [
+                "P is a knight, Q is a knave",
+                "P is a knave, Q is a knight",
+                "Both are knights",
+                "Both are knaves"
+            ],
+            "answer": "P is a knave, Q is a knight",
+            "explanation": "If P is a knight, then Q is a knave. But if Q is a knave, then Q is lying when he says P is a knight, which is consistent. If P is a knave, then Q is a knight. But if Q is a knight, then Q is telling the truth when he says P is a knight, which is consistent. However, if P is a knight, Q must be a knave, and if P is a knave, Q must be a knight. Therefore, the only consistent solution is that P is a knave and Q is a knight."
+        }
+    ],
+    "Seating Arrangements (Linear, Circular)": [
+        {
+            "question": "Five people are sitting in a row. A is to the left of B, C is to the right of D, and E is in the middle. Who is at the ends?",
+            "choices": [
+                "A and C",
+                "B and D",
+                "A and D",
+                "B and C"
+            ],
+            "answer": "A and C",
+            "explanation": "A _ B, D _ C, _ E _. Combining: A D E B C. Ends are A and C."
+        },
+        {
+            "question": "Four people sit around a table. A is next to B, C is opposite D. Who is next to C?",
+            "choices": [
+                "A or B",
+                "D",
+                "A",
+                "B"
+            ],
+            "answer": "A or B",
+            "explanation": "A and B are together. C and D are opposite. So A/B - C - B/A - D. C is next to A or B."
+        },
+        {
+            "question": "Six people are sitting at a rectangular table. Two on each long side and one on each short side. A is opposite B. C is to the right of A. D is opposite C. E is to the left of D. Who is opposite E?",
+            "choices": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "answer": "C",
+            "explanation": "Let's visualize the table: Short side - Long side - Short side - Long side. A _ C, B _ D, E _ D. If A is on the long side, C is on the long side opposite D. E is to the left of D, so E is on the short side. The order is A C D E. B is opposite A. So C is opposite E."
+        },
+        {
+            "question": "Eight people are sitting around a circular table. A is opposite B. C is two seats to the right of A. D is opposite C. E is to the left of D. F is opposite E. G is to the right of F. Who is opposite G?",
+            "choices": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "answer": "D",
+            "explanation": "A _ B, C is two to the right of A, D _ C, E is to the left of D, F _ E, G is to the right of F. The order is A C _ E F G _ B D. G is opposite D."
+        },
+        {
+            "question": "Ten people are sitting in two parallel rows of five each. A is facing B. C is to the right of A. D is facing C. E is to the left of D. F is facing E. Who is facing F?",
+            "choices": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "answer": "A",
+            "explanation": "Two rows of five. A _ B, C is to the right of A, D _ C, E is to the left of D, F _ E. The order is A C D E F. A is facing F."
+        }
+    ],
+    "Puzzles involving generations and family tree logic": [
+        {
+            "question": "A is the father of B, and C is the son of B. What is C to A?",
+            "choices": [
+                "Grandson",
+                "Son",
+                "Nephew",
+                "Uncle"
+            ],
+            "answer": "Grandson",
+            "explanation": "A -> B -> C. C is A's grandson."
+        },
+        {
+            "question": "X is the sister of Y. Y is the mother of Z. How is X related to Z?",
+            "choices": [
+                "Aunt",
+                "Mother",
+                "Grandmother",
+                "Sister"
+            ],
+            "answer": "Aunt",
+            "explanation": "Y is Z's mother. X is Y's sister. X is Z's aunt."
+        },
+        {
+            "question": "John is the son of Peter. Peter is the brother of Michael. How is John related to Michael?",
+            "choices": [
+                "Nephew",
+                "Cousin",
+                "Uncle",
+                "Grandson"
+            ],
+            "answer": "Nephew",
+            "explanation": "Peter is Michael's brother. John is Peter's son. John is Michael's nephew."
+        },
+        {
+            "question": "If Mary is the daughter of John, and John is the son of David, how is Mary related to David?",
+            "choices": [
+                "Granddaughter",
+                "Daughter",
+                "Niece",
+                "Sister"
+            ],
+            "answer": "Granddaughter",
+            "explanation": "John is David's son. Mary is John's daughter. Mary is David's granddaughter."
+        },
+        {
+            "question": "Sarah is the mother of Tom. Tom is the brother of Emily. How is Sarah related to Emily?",
+            "choices": [
+                "Mother",
+                "Aunt",
+                "Sister",
+                "Grandmother"
+            ],
+            "answer": "Mother",
+            "explanation": "Tom and Emily are siblings. Sarah is Tom's mother. Sarah is Emily's mother."
+        }
+    ]
+}

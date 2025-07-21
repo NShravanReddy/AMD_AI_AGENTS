@@ -1,0 +1,122 @@
+[
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Nine people A, B, C, D, E, F, G, H, I sit in a circular table with three facing the center and six facing outward. A is directly opposite D, who is adjacent to E. B is two seats to the left of C, who is facing outward. F is seated between G and H, who are both facing outward. I is adjacent to A and faces outward. If E is facing outward, who is sitting between F and G?",
+        "choices": [
+            "A) A) B",
+            "B) B) H",
+            "C) C) I",
+            "D) D) C"
+        ],
+        "answer": "B",
+        "explanation": "E facing outward places D opposite A. B is two left of C (facing outward). F is between G and H (both outward). I is adjacent to A and outward. Only H fits between F and G without conflicting with other constraints."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals, P, Q, and R, are on an island where everyone is either a truth-teller (always tells the truth) or a liar (always lies). P says, 'Q is a liar.' Q says, 'R is a truth-teller.' R says, 'P is a liar.' How many truth-tellers are there?",
+        "choices": [
+            "A) A) 0",
+            "B) B) 1",
+            "C) C) 2",
+            "D) D) 3"
+        ],
+        "answer": "B",
+        "explanation": "If P is a truth-teller, then Q is a liar. If Q is a liar, then R is not a truth-teller. If R is a liar, then P is not a liar, which contradicts P being a truth-teller. If P is a liar, then Q is not a liar, so Q is a truth-teller. If Q is a truth-teller, then R is a truth-teller. If R is a truth-teller, then P is a liar, which fits. So only one truth-teller (Q) exists."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Ramesh, who is the brother of Radha. Radha is the daughter of Ramesh's only sister. Ravi's mother is married to the son of Ramesh's father's only son. How is Ravi related to Radha's son?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Brother",
+            "D) D) Uncle"
+        ],
+        "answer": "C",
+        "explanation": "Ravi and Radha share the same father, Ramesh. Radha's son is Ravi's brother. Thus, Ravi is the brother of Radha's son."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals, P, Q, and R, make the following statements: P says, 'Q is a liar.' Q says, 'R is a truth-teller.' R says, 'P is a liar.' If exactly one of them is a truth-teller, who is the truth-teller?",
+        "choices": [
+            "A) A) P is the truth-teller",
+            "B) B) Q is the truth-teller",
+            "C) C) R is the truth-teller",
+            "D) D) None of them is the truth-teller"
+        ],
+        "answer": "D",
+        "explanation": "Assume P is truthful: then Q is a liar, making Q's statement false (so R is not a truth-teller). R says P is a liar, which would be a lie if R is a liar, but R's status is uncertain. If Q is truthful, then R is a truth-teller, contradicting R's statement. If R is truthful, then P is a liar, making P's statement false (so Q is not a liar), but Q's statement would be true, contradicting R's truthfulness. No consistent configuration with exactly one truth-teller exists."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Priya's maternal uncle. Priya's father's only sister is married to the only son of Ravi's paternal grandfather's only daughter. How is Ravi related to Priya?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Brother",
+            "C) C) Nephew",
+            "D) D) Uncle"
+        ],
+        "answer": "A",
+        "explanation": "Ravi is the son of Priya's maternal uncle, making him her cousin. The marriage described confirms they share a common grandparent, reinforcing the cousin relationship."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "On an island, three inhabitants A, B, and C make statements: A says, 'B is a liar.' B says, 'C is a truth-teller.' C says, 'A is a liar.' If exactly one of them is a truth-teller, who is the truth-teller?",
+        "choices": [
+            "A) A) A",
+            "B) B) B",
+            "C) C) C",
+            "D) D) None"
+        ],
+        "answer": "B",
+        "explanation": "If B is the truth-teller, then C is a truth-teller (from B's statement), which contradicts the condition of exactly one truth-teller. If A is the truth-teller, then B is a liar, making C's statement true, which contradicts the one truth-teller rule. If C is the truth-teller, then A is a liar, making B's statement false, so B is a liar. This fits: only C is truthful, others are liars."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three inhabitants, X, Y, and Z, live on an island where everyone is either a truth-teller or a liar. X says, 'Y is a liar.' Y says, 'Z is a truth-teller.' Z says, 'X is a liar.' How many truth-tellers are there?",
+        "choices": [
+            "A) A) One",
+            "B) B) Two",
+            "C) C) Three",
+            "D) D) None"
+        ],
+        "answer": "A",
+        "explanation": "If X is a truth-teller, Y is a liar, so Z's statement that X is a liar is false, making Z a liar. This gives one truth-teller (X). If X is a liar, then Y is a truth-teller, so Z is a truth-teller, making Z's statement true, which contradicts Z being a truth-teller. Only one consistent configuration: X is a truth-teller, Y and Z are liars."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family tree, A is the brother of B, who is the daughter of C. D is the son of E, who is the only daughter of F. G is the son of H, who is the only son of I. J is the daughter of K, who is the only daughter of L. If M is the son of N, who is the only son of O, and O is the only son of P, who is the only daughter of Q, how is A related to J?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Uncle",
+            "D) D) Brother"
+        ],
+        "answer": "C",
+        "explanation": "A is the brother of B, who is the daughter of C. J is the daughter of K, who is the only daughter of L. The family tree shows that A and J are on different branches of the tree, with A being the brother of B and J being the daughter of K. Since C and L are not related, A is not directly related to J. However, since M is the son of N, who is the only son of O, and O is the only son of P, who is the only daughter of Q, this shows that A and J are on different branches of the tree, making A the uncle of J."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F sit in a circular table. A is between B and F. D is two seats to the right of E. C is not adjacent to B. F is directly opposite A. Who is sitting between E and D?",
+        "choices": [
+            "A) A) C",
+            "B) B) B",
+            "C) C) F",
+            "D) D) A"
+        ],
+        "answer": "A",
+        "explanation": "A is between B and F, F is opposite A. D is two seats right of E. C not adjacent to B. Only C fits between E and D without conflicts."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family, Ravi is the son of Suman's only sister. Suman's father is the brother of Lata's mother. Lata is the daughter of Ravi's paternal grandfather. How is Lata related to Ravi?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Niece",
+            "C) C) Sister",
+            "D) D) Aunt"
+        ],
+        "answer": "C",
+        "explanation": "Ravi's paternal grandfather is Lata's father. Suman is Ravi's maternal aunt. Lata is Ravi's sister. Thus, Lata is Ravi's sister."
+    }
+]

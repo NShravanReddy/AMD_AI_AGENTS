@@ -1,0 +1,132 @@
+[
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "On an island, four inhabitants A, B, C, and D make statements: A says, 'B is a liar.' B says, 'C is a truth-teller.' C says, 'D is a liar.' D says, 'A is a truth-teller.' If exactly two are truth-tellers, who are they?",
+        "choices": [
+            "A) A and B",
+            "B) B and C",
+            "C) C and D",
+            "D) A and D"
+        ],
+        "explanation": "If A is a truth-teller, then B is a liar. If B is a liar, then C is a liar. If C is a liar, then D is a truth-teller. If D is a truth-teller, then A is a truth-teller. This makes A and D the truth-tellers. Other options lead to contradictions.",
+        "answer": "D",
+        "expected_answer_letter": "C"
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "On an island, four inhabitants A, B, C, and D make statements: A says, 'B is a liar.' B says, 'C is a truth-teller.' C says, 'D is a liar.' D says, 'A is a truth-teller.' If exactly two are truth-tellers, who are they?",
+        "choices": [
+            "A) A and B",
+            "B) B and C",
+            "C) C and D",
+            "D) A and D"
+        ],
+        "explanation": "If A is a truth-teller, then B is a liar. If B is a liar, then C is a liar. If C is a liar, then D is a truth-teller. If D is a truth-teller, then A is a truth-teller. This makes A and D the truth-tellers. Other options lead to contradictions.",
+        "answer": "D",
+        "expected_answer_letter": "A"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F are seated around a circular table. (i) A is seated two seats apart from B. (ii) C is seated next to D. (iii) E is seated three seats away from F. Which of the following must be true? 1. A is seated next to F. 2. C is seated next to E. Select the correct answer from the codes given below:",
+        "choices": [
+            "A) 1 only",
+            "B) 2 only",
+            "C) Both 1 and 2",
+            "D) Neither 1 nor 2"
+        ],
+        "explanation": "Given the constraints, A and F cannot be adjacent as A is two seats from B and E is three seats from F. C and E cannot be adjacent as C is next to D and E is three seats from F. Thus, neither 1 nor 2 must be true.",
+        "answer": "D",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "A is the brother of B, who is the daughter of C. D is the son of E, who is the brother of A. How is D related to C?",
+        "choices": [
+            "A) Nephew",
+            "B) Son",
+            "C) Grandson",
+            "D) Cousin"
+        ],
+        "explanation": "A and D are brothers, so D is the son of E. E is the brother of A, so E is the brother of B's father. Therefore, D is the cousin of B and the grandson of C. Hence, the correct option is 'C'.",
+        "answer": "C",
+        "expected_answer_letter": "A"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, and F are seated around a circular table. (i) A is seated two seats away from B. (ii) C is seated directly between D and E. (iii) F is not seated next to A. Which of the following must be true? 1. D is seated next to F. 2. E is seated next to A. Select the correct answer from the codes given below:",
+        "choices": [
+            "A) 1 only",
+            "B) 2 only",
+            "C) Both 1 and 2",
+            "D) Neither 1 nor 2"
+        ],
+        "explanation": "Given the constraints, D and E are seated with C between them, and A is two seats away from B. F is not next to A, but there is no direct link between D and F or E and A. Thus, neither statement must be true.",
+        "answer": "D",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "In a family tree, A is the brother of B, B is the sister of C, C is the daughter of D, and E is the son of D. How is A related to E?",
+        "choices": [
+            "A) Uncle",
+            "B) Cousin",
+            "C) Brother",
+            "D) Nephew"
+        ],
+        "explanation": "A and E are siblings of B and C, making them cousins. Hence, the correct answer is 'B'.",
+        "answer": "B",
+        "expected_answer_letter": "A"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F are seated around a circular table with six chairs. (i) A is seated two seats apart from B. (ii) C is seated next to D. (iii) E is seated two seats apart from F. Which of the following must be true? 1. A is seated next to F. 2. C is seated next to E. Select the correct answer from the codes given below:",
+        "choices": [
+            "A) 1 only",
+            "B) 2 only",
+            "C) Both 1 and 2",
+            "D) Neither 1 nor 2"
+        ],
+        "explanation": "C",
+        "answer": "C",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F are seated around a circular table. (i) A is seated two seats apart from B. (ii) C is seated next to D. (iii) E is seated two seats apart from F. Which of the following must be true? 1. A is seated next to C. 2. B is seated next to E. Select the correct answer from the codes given below:",
+        "choices": [
+            "A) 1 only",
+            "B) 2 only",
+            "C) Both 1 and 2",
+            "D) Neither 1 nor 2"
+        ],
+        "explanation": "Given that, Six people A, B, C, D, E, F are seated around a circular table. (i) A is seated two seats apart from B. (ii) C is seated next to D. (iii) E is seated two seats apart from F. Now, It can be concluded from the given information 1. A is seated next to C. A is two seats apart from B, and C is next to D, but no direct relation between A and C. 2. B is seated next to E. B is two seats apart from A, and E is two seats apart from F, but no direct relation between B and E. Hence neither 1 nor 2 must be true",
+        "answer": "D",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people A, B, C, D, E, F are seated around a circular table with equal spacing. (i) A is seated two seats away from B. (ii) C is seated directly opposite D. (iii) E is seated next to F but not next to A. Which of the following must be true? 1. B is seated next to E. 2. C is seated next to A. Select the correct answer from the codes given below:",
+        "choices": [
+            "A) 1 only",
+            "B) 2 only",
+            "C) Both 1 and 2",
+            "D) Neither 1 nor 2"
+        ],
+        "explanation": "Given that, Six people A, B, C, D, E, F are seated around a circular table with equal spacing. (i) A is seated two seats away from B. (ii) C is seated directly opposite D. (iii) E is seated next to F but not next to A. Now, It can be concluded from the given information 1. B is seated next to E. A is two seats away from B, and E is not next to A, so B cannot be next to E. 2. C is seated next to A. C is directly opposite D, and A is two seats away from B, so C cannot be next to A. Hence, neither 1 nor 2 must be true.",
+        "answer": "D",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "If A is the father of B, C is the brother of B, D is the daughter of C, and E is the mother of D, how is A related to E?",
+        "choices": [
+            "A) Brother",
+            "B) Father",
+            "C) Uncle",
+            "D) Cousin"
+        ],
+        "explanation": "A is the father of B, and C is the brother of B, making C the son of A. D is the daughter of C, so D is the niece of A. E is the mother of D, making E the mother of A's niece. Therefore, A is the uncle of E. The correct option is 'C'.",
+        "answer": "C",
+        "expected_answer_letter": "D"
+    }
+]

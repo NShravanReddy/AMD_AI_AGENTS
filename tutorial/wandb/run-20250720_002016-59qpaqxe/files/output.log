@@ -1,0 +1,17 @@
+Weights & Biases initialized successfully
+Starting SFT training...
+/usr/local/lib/python3.12/dist-packages/accelerate/state.py:269: UserWarning: OMP_NUM_THREADS/MKL_NUM_THREADS unset, we set it at 20 to improve oob performance.
+  warnings.warn(
+The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers and GPU quantization are unavailable.
+Adding EOS to train dataset: 100%|█████| 10/10 [00:00<00:00, 4084.43 examples/s]
+Tokenizing train dataset: 100%|█████████| 10/10 [00:00<00:00, 954.18 examples/s]
+Truncating train dataset: 100%|████████| 10/10 [00:00<00:00, 5163.49 examples/s]
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                     | 0/9 [00:00<?, ?it/s]/usr/local/lib/python3.12/dist-packages/torch/utils/data/dataloader.py:665: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+100%|█████████████████████████████████████████████| 9/9 [03:05<00:00, 18.89s/it][34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+100%|█████████████████████████████████████████████| 9/9 [03:05<00:00, 20.67s/it]
+{'train_runtime': 185.9948, 'train_samples_per_second': 0.161, 'train_steps_per_second': 0.048, 'train_loss': 2.5628075069851346, 'num_tokens': 9378.0, 'mean_token_accuracy': 0.58050447040134, 'epoch': 3.0}
+Saving LoRA adapters to checkpoints/sft
+SFT training completed successfully

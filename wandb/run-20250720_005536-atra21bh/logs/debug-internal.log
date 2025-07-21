@@ -1,0 +1,33 @@
+{"time":"2025-07-20T00:55:37.172442195Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/jupyter-tutorial/AAIPL_134_199_198_15/wandb/run-20250720_005536-atra21bh/logs/debug-core.log"}
+{"time":"2025-07-20T00:55:37.321805816Z","level":"INFO","msg":"stream: created new stream","id":"atra21bh"}
+{"time":"2025-07-20T00:55:37.321822434Z","level":"INFO","msg":"stream: started","id":"atra21bh"}
+{"time":"2025-07-20T00:55:37.321967394Z","level":"INFO","msg":"writer: Do: started","stream_id":"atra21bh"}
+{"time":"2025-07-20T00:55:37.321980485Z","level":"INFO","msg":"handler: started","stream_id":"atra21bh"}
+{"time":"2025-07-20T00:55:37.322006492Z","level":"INFO","msg":"sender: started","stream_id":"atra21bh"}
+{"time":"2025-07-20T00:55:37.447644409Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-20T00:55:37.624058337Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:37.721062453Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:37.761984489Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.061715439Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101968643Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.101980358Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101982406Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.101984072Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101985546Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.101986996Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101988246Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.10198953Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101990687Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.101991839Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101993022Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.101994175Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-07-20T00:55:38.101995318Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-20T00:55:38.10201406Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-20T00:55:38.102102376Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-20T00:55:38.631150507Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-20T00:55:38.727822362Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-20T00:55:38.731442836Z","level":"INFO","msg":"stream: closing","id":"atra21bh"}
+{"time":"2025-07-20T00:55:38.731453431Z","level":"INFO","msg":"handler: closed","stream_id":"atra21bh"}
+{"time":"2025-07-20T00:55:38.731460497Z","level":"INFO","msg":"writer: Close: closed","stream_id":"atra21bh"}
+{"time":"2025-07-20T00:55:38.731472872Z","level":"INFO","msg":"sender: closed","stream_id":"atra21bh"}
+{"time":"2025-07-20T00:55:38.731495556Z","level":"INFO","msg":"stream: closed","id":"atra21bh"}

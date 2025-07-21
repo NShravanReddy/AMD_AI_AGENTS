@@ -1,0 +1,132 @@
+[
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Riya says, 'Sonal is the sister of my only brother's mother.' Priya says, 'Sonal is my aunt.' Rajesh says, 'Priya is not my sister.' Based on their statements, how are Rajesh, Riya, and Priya related?",
+        "choices": [
+            "A) Rajesh and Riya are siblings; Priya is their cousin.",
+            "B) Rajesh is Riya's brother; Priya is Riya's cousin.",
+            "C) Riya and Priya are sisters; Rajesh is their cousin.",
+            "D) Riya and Priya are cousins; Rajesh is Riya's brother"
+        ],
+        "answer": "D",
+        "explanation": "Riya's only brother's mother = Riya's mother. Sonal is Riya's mother's sister, so Sonal is Riya's maternal aunt. Priya says Sonal is her aunt, so Priya and Riya are cousins. Rajesh is Riya's brother, but Priya is not his sister, so Rajesh and Priya are also cousins.",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three inhabitants\u2014X, Y, and Z\u2014are either truth-tellers or liars. X says, 'Y is a liar.' Y says, 'Z and I are the same type.' Z says, 'X is a truth-teller.' Who is the truth-teller?",
+        "choices": [
+            "A) X",
+            "B) Y",
+            "C) Z",
+            "D) None"
+        ],
+        "answer": "D",
+        "explanation": "Assume X is a truth-teller: then Y is a liar. Y's statement would be false, so Z and Y are not the same type, so Z is a truth-teller. But Z claims X is a truth-teller, which is consistent. This creates a contradiction. Try Y as truth-teller: Y says Z and Y are the same, so Z is a truth-teller. X says Y is a liar, so X is a liar. Z says X is a truth-teller, so contradiction. Try Z as truth-teller: Z says X is a truth-teller, so X is a truth-teller. X says Y is a liar, so Y is a liar. Y says Z and I are the same, but Y is a liar, so Z and Y are not the same, so Z is a truth-teller. This is consistent. But this matches the previous scenario, which is not possible. Thus, no solution fits, so D) None is correct.",
+        "expected_answer_letter": "A"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Seven friends (A\u2013G) sit in a row facing north. Each makes one statement: 'I am not at either end.' 'I am to the immediate right of the logician.' 'I am not adjacent to the linguist.' 'I am at one of the ends.' Only one person is a liar, and the rest are truth-tellers. Who is at the leftmost end?",
+        "choices": [
+            "A) A",
+            "B) C",
+            "C) E",
+            "D) G"
+        ],
+        "answer": "C",
+        "explanation": "D is incorrect because G cannot be at the end if someone claims to be at an end. A and B are too close to the ends, violating the liar's constraint. Only E fits all adjacency and truth-telling conditions.",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014Anna, Ben, Clara, David, Emily, and Frank\u2014sit in a row facing north. Anna sits at one of the ends. Clara sits immediately between Anna and David. Ben sits two places away from Emily. Frank is not at either end. Who sits at the second position?",
+        "choices": [
+            "A) Clara",
+            "B) Emily",
+            "C) Ben",
+            "D) David"
+        ],
+        "answer": "A",
+        "explanation": "Anna at end (say, leftmost). Clara between Anna and David (so Anna, Clara, David). Ben two places from Emily (positions 2 and 5 or 5 and 2). Frank not at end, so occupies the remaining spot. Only Clara fits at position 2.",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014Arjun, Bella, Chitra, Deepak, Ela, and Fara\u2014sit around a circular table facing the center. Each makes one statement: 'I am sitting directly opposite X.' Arjun says: 'I am opposite Bella.' Bella says: 'Chitra is to my immediate right.' Deepak says: 'Ela is not adjacent to me.' Ela says: 'Fara is to my immediate left.' Fara says: 'Deepak is opposite me.' Who sits to Arjun\u2019s immediate left?",
+        "choices": [
+            "A) Bella",
+            "B) Chitra",
+            "C) Deepak",
+            "D) Ela"
+        ],
+        "answer": "D",
+        "explanation": "Arjun opposite Bella, Ela opposite Deepak, Fara opposite Deepak (contradiction resolved by placing Chitra between Bella and Ela). Only Ela fits as immediate left to Arjun.",
+        "expected_answer_letter": "C"
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit in a row facing north. Each makes one statement: 'I am not at either end.' 'B is to my immediate right.' 'C is not adjacent to D.' 'E is at one of the ends.' 'F is not next to A.' Based on these, what is the correct seating arrangement from left to right?",
+        "choices": [
+            "A) E, B, C, F, D, A",
+            "B) A, B, C, D, F, E",
+            "C) F, E, B, D, C, A",
+            "D) D, C, F, A, B, E"
+        ],
+        "answer": "B",
+        "explanation": "Only B) satisfies all constraints: E at end, B immediately right of A, C not next to D, F not next to A.",
+        "expected_answer_letter": "C"
+    },
+    {
+        "topic": "Puzzles/Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit in a row facing north. A sits at one of the ends. B sits immediately left of D. C sits two seats away from E. F sits not at an end. Who sits at the extreme right end?",
+        "choices": [
+            "A) A",
+            "B) B",
+            "C) C",
+            "D) D"
+        ],
+        "answer": "A",
+        "explanation": "A is at an end; B is immediately left of D, so B-D must be together; C is two seats from E; F cannot be at an end. Only A fits at the extreme right.",
+        "expected_answer_letter": "D"
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Riya says, 'Sahil is my mother's only son's son.' Neha says, 'Riya is my father's only daughter.' Sahil says, 'Neha is my cousin.' How is Neha related to Sahil?",
+        "choices": [
+            "A) Neha is Sahil's sister",
+            "B) Neha is Sahil's cousin",
+            "C) Neha is Sahil's aunt",
+            "D) Neha is Sahil's niece"
+        ],
+        "answer": "B",
+        "explanation": "Riya is Neha's sister. Sahil is Riya's nephew (her mother's only son's son). Neha and Sahil are children of siblings, making them cousins.",
+        "expected_answer_letter": "B"
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Anika says, 'Bharat is the brother of my only sibling's mother.' Suman says, 'Anika's paternal aunt is my mother.' How is Suman related to Bharat?",
+        "choices": [
+            "A) Bharat is Suman's maternal uncle",
+            "B) Bharat is Suman's father",
+            "C) Bharat is Suman's cousin",
+            "D) Bharat is Suman's grandfather"
+        ],
+        "answer": "D",
+        "explanation": "Anika's only sibling = her sister. Bharat is her sister's mother, so Bharat is Anika's maternal grandmother. Suman's mother is Anika's paternal aunt, so Suman's mother is Anika's maternal uncle's daughter. Thus, Bharat is Suman's grandfather.",
+        "expected_answer_letter": "A"
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Rohan says, 'Lina is my mother's only daughter.' Lina says, 'Mohan is my only brother.' Mohan says, 'Nina is my mother's sister.' How is Nina related to Rohan?",
+        "choices": [
+            "A) Nina is Rohan's grandmother",
+            "B) Nina is Rohan's maternal aunt",
+            "C) Nina is Rohan's cousin",
+            "D) Nina is Rohan's grandfather"
+        ],
+        "answer": "B",
+        "explanation": "Rohan's mother's only daughter is Lina, so Rohan is Lina's brother. Lina's only brother is Mohan, so Rohan and Mohan are brothers. Mohan's mother is Lina's mother, so Mohan and Lina are siblings. Mohan says Nina is his mother's sister, so Nina is Lina's mother's sister, making Nina Rohan's maternal aunt.",
+        "expected_answer_letter": "B"
+    }
+]

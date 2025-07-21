@@ -1,0 +1,72 @@
+[
+    {
+        "answer": "C",
+        "reasoning": "If Z is a truth-teller, then X and Y are of the same type. If X is a liar, then Y is a liar, which would make Y's statement false, contradicting Z's truth. If Y is a truth-teller, then Z is a truth-teller, but this would mean two truth-tellers, contradicting the condition. Thus, Z must be the truth-teller, making X and Y liars."
+    },
+    {
+        "answer": "A",
+        "reasoning": "The daughter of Ravi's maternal grandmother's only brother is Ravi's cousin. Ravi's mother's sister is the daughter of Ravi's paternal grandfather's only son, making her Ravi's aunt. The daughter of Ravi's maternal grandmother's only brother is Ravi's cousin, as they share the same grandparent on the maternal side. Thus, the correct answer is Cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Ravi's father's only daughter is Ravi's paternal aunt. Suman's mother's brother is Ravi's paternal aunt's brother. Therefore, Suman is the daughter of Ravi's paternal cousin, making Suman Ravi's cousin."
+    },
+    {
+        "answer": "A",
+        "reasoning": "J is the brother of I, who is the child of H. A is the daughter of B, who is the child of C. Since H is the mother of I and J, and A is the daughter of B, who is the son of C, J and A are cousins. Therefore, the correct answer is A) Cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If Z is the truth-teller, then X is a liar, making X's statement false (so Y is not a liar). Y's statement that Z is a truth-teller is true, but this would mean two truth-tellers (Z and Y), which contradicts the condition. If Z is the truth-teller, then Y's statement is true, but this would make Y a truth-teller, contradicting the condition. Thus, Z must be the truth-teller, and the others are liars, satisfying the condition of exactly one truth-teller."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "From the clues, we determine positions step by step. B is directly opposite C, and A is third to the left of B. D is adjacent to E, who is two seats to the right of F. G is between H and I, and I is directly opposite J. K is next to A and not opposite B. By analyzing the circular arrangement, D ends up directly opposite A."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the son of B's only sister, making A the cousin of B's children. B is the brother-in-law of C, who is the daughter of D. D is the mother of E, who is the only child of F. F is the father of G, who is the son of H. H is the brother of I, who is the mother of J. Thus, J is the cousin of A."
+    },
+    {
+        "answer": "A",
+        "reasoning": "H is the son of I, and K is the daughter of L. Since L is the father of J, and J is the father of K, L is the grandfather of K. C is the mother of F, and D is the son of E, who is the brother of F. Therefore, C and E are siblings. Since H is the son of I and K is the daughter of L, and there is no direct familial connection between H and K, H is the cousin of K."
+    },
+    null,
+    {
+        "answer": "D",
+        "reasoning": "Assume D is a truth-teller. Then A is a truth-teller (as D says 'A is a truth-teller'). This makes two truth-tellers (A and D). B says 'C is a truth-teller,' but if B is a liar, then C is a liar. C says 'D is a liar,' but since D is a truth-teller, C is lying. This fits the condition of exactly two truth-tellers (A and D) and two liars (B and C)."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the clues, G is opposite B, so they are seated across the table. D is adjacent to G and faces the center, so D is next to G. C is two seats to the left of E. A is between B and F, and F is not adjacent to B. Placing these in a circle, C ends up between D and E."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Priya's maternal uncle, making Ravi Priya's cousin. Priya's father is the brother of Ravi's paternal grandfather, confirming they are cousins. Thus, Ravi is related to Priya's mother as a cousin."
+    },
+    {
+        "answer": "D",
+        "reasoning": "We know K is two seats to the left of A, and A is directly opposite D. Since the table is circular, the person directly opposite A is D. Therefore, the answer is D."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Given the circular arrangement, A is opposite D. B is two seats to the right of E. C is adjacent to F and faces the center. E is not adjacent to A. By placing A and D opposite each other, and considering the positions of B, E, and C, it follows that C is between B and E."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, H is adjacent to I and J, and I is three seats to the left of J. K is between H and I. This forms a segment where H, K, I, J are seated consecutively. D is two seats to the right of E. F is opposite G. A is between B and C. By arranging the people around the table, D ends up opposite A."
+    },
+    {
+        "answer": "D",
+        "reasoning": "Assume A and D are truth-tellers. Then A's statement that B is a liar is true, so B is a liar. B's statement that C is a truth-teller is false, so C is a liar. C's statement that D is a liar is false, which is consistent because D is a truth-teller. D's statement that A is a truth-teller is true. This satisfies the condition of exactly two truth-tellers (A and D) and two liars (B and C)."
+    },
+    {
+        "answer": "C",
+        "reasoning": "From the clues, A is between B and F, and F is two seats to the left of C. C is two seats to the right of D. E is directly opposite G, and B is adjacent to E. By placing the people according to these constraints, D is adjacent to C and E. Thus, the person between D and E is C."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Given the constraints, we determine the seating arrangement. A is opposite D, so they are separated by three seats. B is two seats to the right of E. C is adjacent to F and faces the center. G is not adjacent to A, and F is not adjacent to D. By testing positions, C is the only one that fits between E and B based on the adjacency and facing rules."
+    }
+]
