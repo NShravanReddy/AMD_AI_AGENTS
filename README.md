@@ -135,3 +135,5 @@ Here you will be building:
 3. **[Prompt Engineering_2](AMD-AI-Premier-League/agents/answer_agent.py)**  
 
 4. **[Increased the examples](AMD-AI-Premier-League/assets/topics_example.json)**
+
+5. **[Used wandb for monitoring](https://api.wandb.ai/links/nshravanreddy6-freelancer/xhcvfroe)
